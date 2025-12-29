@@ -8,6 +8,7 @@ random.seed(42)
 np.random.seed(42)
 
 provider_name = "HOSPITAL BOM ATENDIMENTO"
+files_path    = "./files"
 
 # Banco de dados de Itens (Código, Descrição, Faixa de Preço)
 items_db = [
@@ -27,6 +28,14 @@ items_db = [
     (90010010, "AMOXICILINA 500MG", (15.0, 40.0)),
     (90020020, "IBUPROFENO 600MG", (10.0, 30.0))
 ]
+
+# Dicionário de Glosas
+glosa_reasons = {
+    "1001": "Código TISS inválido",
+    "1002": "Justificativa técnica ausente",
+    "2005": "Valor acima da tabela acordada",
+    "5001": "Beneficiário não elegível na data"
+}
 
 # Banco de dados de Beneficiários (Expandido)
 beneficiaries_db = [
@@ -51,6 +60,7 @@ def generate_large_dataset(num_remessas=1, start_date=datetime(2023, 10, 1), tar
     data = []
     rows_generated = 0
     remessa_id = random.randint(10000, 99999)
+    # Data Faturamento ~ 20 a 30 dias após start_date
     billing_date = start_date + timedelta(days=random.randint(20, 30))
     billing_date_str = billing_date.strftime("%Y-%m-%d 00:00:00.000000")
 
@@ -58,6 +68,7 @@ def generate_large_dataset(num_remessas=1, start_date=datetime(2023, 10, 1), tar
         name, matricula = random.choice(beneficiaries_db)
         guia_id = random.randint(1000000000, 9999999999)
         senha = random.randint(10000, 99999)
+        # Data Atendimento ~ 0 a 15 dias após start_date (sempre antes do faturamento)
         service_date = start_date + timedelta(days=random.randint(0, 15))
         service_date_str = service_date.strftime("%d/%m/%y")
 
@@ -91,32 +102,50 @@ def process_statement_data(df):
     statement_rows = []
     billing_date_str = df['data_faturamento'].iloc[0]
     billing_date = datetime.strptime(billing_date_str, "%Y-%m-%d 00:00:00.000000")
+
+    # Pagamento 30 dias após faturamento (garante ser posterior ao atendimento)
     payment_date = billing_date + timedelta(days=30)
     payment_date_str = payment_date.strftime("%d/%m/%Y")
 
-    total_declared = 0.0
-    total_paid = 0.0
+    total_declarado = 0.0
+    total_pago = 0.0
     total_glosa = 0.0
+
+    # Mapa para manter consistência: Guia Prestador -> Guia Operadora
+    guide_map = {}
 
     for _, row in df.iterrows():
         val_str = row['valor_cobrado'].replace(',', '.')
         val_declared = float(val_str)
-        is_glosa = random.random() < 0.15
+
+        is_glosa = random.random() < 0.15 # 15% chance de glosa
         val_glosa = 0.0
         cod_glosa = ""
+        desc_glosa = ""
 
         if is_glosa:
             glosa_percent = random.uniform(0.1, 1.0)
             val_glosa = round(val_declared * glosa_percent, 2)
-            cod_glosa = random.choice(["1001", "1002", "2005", "5001"])
+            cod_glosa = random.choice(list(glosa_reasons.keys()))
+            desc_glosa = glosa_reasons[cod_glosa]
+        else:
+            cod_glosa = "-"
+            desc_glosa = "-"
 
         val_paid = val_declared - val_glosa
-        total_declared += val_declared
-        total_paid += val_paid
+        total_declarado += val_declared
+        total_pago += val_paid
         total_glosa += val_glosa
 
+        # Gerar/Recuperar Guia Operadora
+        p_guide = row['numero_guia']
+        if p_guide not in guide_map:
+            guide_map[p_guide] = random.randint(5000000000, 9999999999)
+        op_guide = guide_map[p_guide]
+
         statement_rows.append({
-            "guia": row['numero_guia'],
+            "guia_prestador": row['numero_guia'],
+            "guia_operadora": op_guide,
             "senha": row['senha'],
             "beneficiario": row['nome'],
             "matricula": row['matricula'],
@@ -125,7 +154,8 @@ def process_statement_data(df):
             "descricao": row['descricao'],
             "valor_declarado": f"{val_declared:.2f}".replace('.', ','),
             "valor_glosa": f"{val_glosa:.2f}".replace('.', ',') if val_glosa > 0 else "0,00",
-            "codigo_glosa": cod_glosa if val_glosa > 0 else "-",
+            "codigo_glosa": cod_glosa,
+            "motivo_glosa": desc_glosa,
             "valor_pago": f"{val_paid:.2f}".replace('.', ',')
         })
 
@@ -133,9 +163,9 @@ def process_statement_data(df):
         "prestador": df['prestador'].iloc[0],
         "remessa": df['numero_remessa'].iloc[0],
         "data_pagamento": payment_date_str,
-        "total_declarado": f"{total_declared:.2f}".replace('.', ','),
+        "total_declarado": f"{total_declarado:.2f}".replace('.', ','),
         "total_glosa": f"{total_glosa:.2f}".replace('.', ','),
-        "total_pago": f"{total_paid:.2f}".replace('.', ',')
+        "total_pago": f"{total_pago:.2f}".replace('.', ',')
     }
     return statement_rows, summary
 
@@ -146,70 +176,113 @@ def generate_html(rows, summary, filename):
 <meta charset="UTF-8">
 <title>Demonstrativo {summary['remessa']}</title>
 <style>
-body{{font-family:Arial,sans-serif;margin:20px}}
-h1{{color:#2C3E50;text-align:center}}
-.header{{background:#ecf0f1;padding:15px;border-radius:5px;margin-bottom:20px}}
-table{{width:100%;border-collapse:collapse;font-size:12px}}
-th,td{{border:1px solid #ddd;padding:8px;text-align:left}}
-th{{background-color:#2980B9;color:white}}
-tr:nth-child(even){{background-color:#f2f2f2}}
+body{{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin:20px;background-color:#f4f4f4}}
+.container{{background-color:white;padding:20px;border-radius:8px;box-shadow:0 0 10px rgba(0,0,0,0.1)}}
+h1{{color:#2C3E50;text-align:center;border-bottom:2px solid #E67E22;padding-bottom:10px}}
+.header{{background:#ecf0f1;padding:15px;border-radius:5px;margin-bottom:20px;display:flex;justify-content:space-between;flex-wrap:wrap}}
+.header p{{margin:5px 20px 5px 0}}
+table{{width:100%;border-collapse:collapse;font-size:11px;margin-top:20px}}
+th,td{{border:1px solid #ddd;padding:6px;text-align:left}}
+th{{background-color:#E67E22;color:white;position:sticky;top:0}}
+tr:nth-child(even){{background-color:#f9f9f9}}
+tr:hover{{background-color:#f1f1f1}}
 .val{{text-align:right}}
-.glosa{{color:#c0392b;font-weight:bold}}
-.pago{{color:#27ae60;font-weight:bold}}
+.glosa-row td{{color:#c0392b}}
+.glosa-val{{color:#c0392b;font-weight:bold}}
+.pago-val{{color:#27ae60;font-weight:bold}}
+.footer{{margin-top:20px;text-align:right;font-size:14px;border-top:2px solid #ddd;padding-top:10px}}
 </style>
 </head>
 <body>
-<h1>KONOHA SAÚDE - DEMONSTRATIVO DE ANÁLISE DE CONTAS</h1>
-<div class="header">
-    <p><strong>Prestador:</strong> {summary['prestador']}</p>
-    <p><strong>Remessa:</strong> {summary['remessa']}</p>
-    <p><strong>Data Pagamento:</strong> {summary['data_pagamento']}</p>
-</div>
-<table>
-    <thead>
-        <tr>
-            <th>Guia</th><th>Senha</th><th>Beneficiário</th><th>Data</th>
-            <th>Código</th><th>Descrição</th>
-            <th>Vlr. Decl.</th><th>Vlr. Glosa</th><th>Cód.</th><th>Vlr. Pago</th>
-        </tr>
-    </thead>
-    <tbody>"""
+<div class="container">
+    <h1>KONOHA SAÚDE - DEMONSTRATIVO DE CONTAS MÉDICAS</h1>
+
+    <div class="header">
+        <div>
+            <p><strong>Prestador:</strong> {summary['prestador']}</p>
+            <p><strong>Remessa (Lote):</strong> {summary['remessa']}</p>
+        </div>
+        <div>
+            <p><strong>Data Pagamento:</strong> {summary['data_pagamento']}</p>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Guia Prest.</th>
+                <th>Guia Oper.</th>
+                <th>Senha</th>
+                <th>Beneficiário</th>
+                <th>Data</th>
+                <th>Cód. Serv.</th>
+                <th>Descrição</th>
+                <th>Vlr. Decl.</th>
+                <th>Vlr. Glosa</th>
+                <th>Cód. Glosa</th>
+                <th>Motivo Glosa</th>
+                <th>Vlr. Pago</th>
+            </tr>
+        </thead>
+        <tbody>"""
+
     for r in rows:
+        # Highlight row if there is glosa? Maybe just the text
         html += f"""
-        <tr>
-            <td>{r['guia']}</td><td>{r['senha']}</td><td>{r['beneficiario']} ({r['matricula']})</td><td>{r['data_atendimento']}</td>
-            <td>{r['codigo']}</td><td>{r['descricao']}</td>
-            <td class="val">{r['valor_declarado']}</td><td class="val glosa">{r['valor_glosa']}</td>
-            <td style="text-align:center">{r['codigo_glosa']}</td><td class="val pago">{r['valor_pago']}</td>
-        </tr>"""
+            <tr>
+                <td>{r['guia_prestador']}</td>
+                <td>{r['guia_operadora']}</td>
+                <td>{r['senha']}</td>
+                <td>{r['beneficiario']}<br><small>({r['matricula']})</small></td>
+                <td>{r['data_atendimento']}</td>
+                <td>{r['codigo']}</td>
+                <td>{r['descricao']}</td>
+                <td class="val">{r['valor_declarado']}</td>
+                <td class="val glosa-val">{r['valor_glosa']}</td>
+                <td style="text-align:center">{r['codigo_glosa']}</td>
+                <td style="font-size:10px">{r['motivo_glosa']}</td>
+                <td class="val pago-val">{r['valor_pago']}</td>
+            </tr>"""
+
     html += f"""
-    </tbody>
-</table>
-<div style="margin-top:20px;text-align:right;font-size:16px">
-    <p><strong>Total Declarado:</strong> R$ {summary['total_declarado']}</p>
-    <p><strong>Total Glosa:</strong> R$ {summary['total_glosa']}</p>
-    <p><strong>Total Pago:</strong> R$ {summary['total_pago']}</p>
+        </tbody>
+    </table>
+
+    <div class="footer">
+        <p><strong>Total Declarado:</strong> R$ {summary['total_declarado']}</p>
+        <p style="color:#c0392b"><strong>Total Glosado:</strong> R$ {summary['total_glosa']}</p>
+        <p style="color:#27ae60;font-size:18px"><strong>Total Líquido Pago:</strong> R$ {summary['total_pago']}</p>
+    </div>
 </div>
-</body></html>"""
+</body>
+</html>"""
 
     with open(filename, "w", encoding='utf-8') as f:
         f.write(html)
 
 # --- Execução Principal ---
-print("Gerando arquivos...")
-df1 = generate_large_dataset(target_rows=300, start_date=datetime(2023, 11, 1))
-df2 = generate_large_dataset(target_rows=300, start_date=datetime(2023, 12, 1))
+if __name__ == "__main__":
+    print("Iniciando geração de arquivos...")
 
-rows1, sum1 = process_statement_data(df1)
-rows2, sum2 = process_statement_data(df2)
+    # Gera datasets
+    df1 = generate_large_dataset(target_rows=300, start_date=datetime(2023, 11, 1))
+    df2 = generate_large_dataset(target_rows=350, start_date=datetime(2023, 12, 1))
 
-df1.to_csv("faturamento_konoha_003.csv", index=False)
-df2.to_csv("faturamento_konoha_004.csv", index=False)
-generate_html(rows1, sum1, "demonstrativo_konoha_003.html")
-generate_html(rows2, sum2, "demonstrativo_konoha_004.html")
+    # Processa para demonstrativo
+    rows1, sum1 = process_statement_data(df1)
+    rows2, sum2 = process_statement_data(df2)
 
-print("Sucesso! Arquivos gerados:")
-print("1. faturamento_konoha_003.csv")
-print("2. faturamento_konoha_004.csv")
-print("3. demonstrativo_konoha_003.html")
-print("4. demonstrativo_konoha_004.html")
+    # Salva CSVs (Padrão TISS original)
+    df1.to_csv(files_path + "faturamento_konoha_003.csv", index=False)
+    df2.to_csv(files_path + "faturamento_konoha_004.csv", index=False)
+
+    # Salva HTMLs
+    generate_html(rows1, sum1, files_path + "demonstrativo_konoha_003.html")
+    generate_html(rows2, sum2, files_path + "demonstrativo_konoha_004.html")
+
+    print("Concluído com sucesso!")
+    print("Arquivos gerados na pasta local:")
+    print("- faturamento_konoha_003.csv")
+    print("- faturamento_konoha_004.csv")
+    print("- demonstrativo_konoha_003.html")
+    print("- demonstrativo_konoha_004.html")
