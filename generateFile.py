@@ -9,6 +9,8 @@ np.random.seed(42)
 
 provider_name = "HOSPITAL BOM ATENDIMENTO"
 files_path    = "./files/"
+glosa_chance  = 0.40
+
 
 # Banco de dados de Itens (Código, Descrição, Faixa de Preço)
 items_db = [
@@ -137,7 +139,7 @@ def process_statement_data(df):
         val_str = row['valor_cobrado'].replace(',', '.')
         val_declared = float(val_str)
 
-        is_glosa = random.random() < 0.15 # 15% chance de glosa
+        is_glosa = random.random() < glosa_chance # glosa chance percentage
         val_glosa = 0.0
         cod_glosa = ""
         desc_glosa = ""
