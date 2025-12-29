@@ -8,7 +8,7 @@ random.seed(42)
 np.random.seed(42)
 
 provider_name = "HOSPITAL BOM ATENDIMENTO"
-files_path    = "./files"
+files_path    = "./files/"
 
 # Banco de dados de Itens (Código, Descrição, Faixa de Preço)
 items_db = [
@@ -29,12 +29,31 @@ items_db = [
     (90020020, "IBUPROFENO 600MG", (10.0, 30.0))
 ]
 
-# Dicionário de Glosas
+# --- Dicionário de Glosas (Padrão TISS)
 glosa_reasons = {
-    "1001": "Código TISS inválido",
-    "1002": "Justificativa técnica ausente",
-    "2005": "Valor acima da tabela acordada",
-    "5001": "Beneficiário não elegível na data"
+    "1001": "Número da carteira inválido",
+    "1002": "A guia não pertence ao sistema",
+    "1004": "Senha da guia inválida ou vencida",
+    "1009": "Beneficiário com pagamento em aberto",
+    "1013": "CNES do contratado inválido",
+    "1203": "Acomodação não autorizada",
+    "1204": "Acomodação não contratada",
+    "1211": "Assinatura do médico ou prestador ausente",
+    "1404": "Quantidade faturada acima da quantidade autorizada",
+    "1409": "Quantidade solicitada acima da máxima permitida",
+    "1419": "Procedimento não autorizado",
+    "1426": "Procedimento/item não coberto pelo rol da ANS",
+    "1612": "Serviço profissional hospitalar não compatível",
+    "1707": "Paciente não identificado",
+    "1802": "Procedimento incompatível com a idade",
+    "1803": "Procedimento incompatível com o sexo",
+    "2005": "Valor apresentado maior que o valor contratado",
+    "2011": "Valor do item acima do acordado em pacote",
+    "2204": "Material não autorizado",
+    "2302": "Taxa ou aluguel não autorizado",
+    "2505": "Medicamento não autorizado",
+    "5001": "Beneficiário suspenso",
+    "5006": "Beneficiário cancelado"
 }
 
 # Banco de dados de Beneficiários (Expandido)
@@ -227,7 +246,10 @@ tr:hover{{background-color:#f1f1f1}}
         <tbody>"""
 
     for r in rows:
-        # Highlight row if there is glosa? Maybe just the text
+        # Se houver glosa, destacamos visualmente a célula do valor glosado
+        is_glosa_row = r['codigo_glosa'] != "-"
+        glosa_style = 'color:red' if is_glosa_row else ''
+
         html += f"""
             <tr>
                 <td>{r['guia_prestador']}</td>
@@ -239,14 +261,14 @@ tr:hover{{background-color:#f1f1f1}}
                 <td>{r['descricao']}</td>
                 <td class="val">{r['valor_declarado']}</td>
                 <td class="val glosa-val">{r['valor_glosa']}</td>
-                <td style="text-align:center">{r['codigo_glosa']}</td>
-                <td style="font-size:10px">{r['motivo_glosa']}</td>
+                <td style="text-align:center; {glosa_style}">{r['codigo_glosa']}</td>
+                <td style="font-size:10px; {glosa_style}">{r['motivo_glosa']}</td>
                 <td class="val pago-val">{r['valor_pago']}</td>
             </tr>"""
 
     html += f"""
         </tbody>
-    </table>
+</table>
 
     <div class="footer">
         <p><strong>Total Declarado:</strong> R$ {summary['total_declarado']}</p>
@@ -281,7 +303,7 @@ if __name__ == "__main__":
     generate_html(rows2, sum2, files_path + "demonstrativo_konoha_004.html")
 
     print("Concluído com sucesso!")
-    print("Arquivos gerados na pasta local:")
+    print("Arquivos gerados na pasta" + files_path + ":")
     print("- faturamento_konoha_003.csv")
     print("- faturamento_konoha_004.csv")
     print("- demonstrativo_konoha_003.html")
