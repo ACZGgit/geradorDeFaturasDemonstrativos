@@ -9,26 +9,77 @@ np.random.seed(42)
 
 provider_name = "HOSPITAL BOM ATENDIMENTO"
 files_path    = "./files/"
+
 glosa_chance  = 0.40
+target_rows   = 500
+num_remessas  = 1
+start_date    = datetime(2023, 10, 1)
 
 
 # Banco de dados de Itens (Código, Descrição, Faixa de Preço)
 items_db = [
-    (10101012, "CONSULTA EM PRONTO SOCORRO", (50.0, 150.0)),
-    (40304361, "HEMOGRAMA COMPLETO", (15.0, 30.0)),
+# GRUPO 1: CONSULTAS
+    (10101012, "CONSULTA EM PRONTO SOCORRO", (80.0, 150.0)),
+    (10101039, "CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)", (100.0, 250.0)),
+
+    # GRUPO 2: PROCEDIMENTOS CLÍNICOS E HOSPITALARES
+    (20103478, "NEBULIZACAO (POR SESSAO)", (15.0, 30.0)),
+    (20104040, "DIARIA DE UTI ADULTO (GERAL)", (800.0, 2500.0)),
+    (20104199, "DIARIA DE QUARTO PRIVATIVO", (300.0, 600.0)),
+    (20104148, "DIARIA DE ENFERMARIA", (150.0, 350.0)),
+    (20103630, "CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR", (40.0, 90.0)),
+    (20201046, "CARDIOVERSAO ELETRICA DE EMERGENCIA", (300.0, 500.0)),
+
+    # GRUPO 3: PROCEDIMENTOS CIRÚRGICOS E INVASIVOS
+    (30906060, "RESSONANCIA MAGNETICA DE CRANIO", (600.0, 1200.0)), # Tecnicamente Imagem, mas as vezes classificado aqui
+    (31009050, "DRENAGEM DE ABSCESSO", (150.0, 400.0)),
+    (30201012, "ELETROCARDIOGRAMA CONVENCIONAL", (40.0, 80.0)),
+
+    # GRUPO 4: EXAMES DIAGNÓSTICOS E TERAPÊUTICOS
+    # Laboratório
+    (40304361, "HEMOGRAMA COMPLETO", (15.0, 35.0)),
     (40301011, "GLICOSE", (5.0, 15.0)),
-    (40805011, "RX TORAX", (40.0, 80.0)),
-    (40901123, "ULTRASSONOGRAFIA ABDOME TOTAL", (100.0, 200.0)),
-    (90000010, "DIPIRONA SODICA 1G", (2.0, 10.0)),
-    (90000020, "SORO FISIOLOGICO 0.9% 500ML", (5.0, 20.0)),
-    (90000030, "KETOPROFENO 100MG", (8.0, 25.0)),
-    (60000001, "TAXA DE SALA", (50.0, 100.0)),
-    (60000002, "TAXA DE MATERIAIS DESCARTAVEIS", (20.0, 50.0)),
-    (20104040, "TERAPIA INTENSIVA", (500.0, 1200.0)),
-    (30906060, "RESSONANCIA MAGNETICA", (300.0, 800.0)),
     (40302020, "COLESTEROL TOTAL", (10.0, 25.0)),
-    (90010010, "AMOXICILINA 500MG", (15.0, 40.0)),
-    (90020020, "IBUPROFENO 600MG", (10.0, 30.0))
+    (40302012, "UREIA", (8.0, 20.0)),
+    (40301062, "CREATININA", (8.0, 20.0)),
+    (40306135, "TGP (ALANINA AMINOTRANSFERASE)", (10.0, 25.0)),
+    (40306143, "TGO (ASPARTATO AMINOTRANSFERASE)", (10.0, 25.0)),
+    (40316025, "TSH (HORMONIO TIREOESTIMULANTE)", (25.0, 50.0)),
+    (40316050, "T4 LIVRE", (25.0, 50.0)),
+    (40305023, "PROTEINA C REATIVA, QUALITATIVA", (15.0, 30.0)),
+    (40302489, "TRIGLICERIDEOS", (12.0, 28.0)),
+    (40311198, "URINA TIPO I", (10.0, 20.0)),
+    (40304582, "TEMPO DE PROTROMBINA (TAP)", (12.0, 25.0)),
+
+    # Imagem
+    (40805011, "RX - TORAX PA E PERFIL", (50.0, 90.0)),
+    (40804058, "RX - JOELHO", (50.0, 80.0)),
+    (40804023, "RX - TORNOZELO", (50.0, 80.0)),
+    (40901123, "ULTRASSONOGRAFIA ABDOME TOTAL", (120.0, 250.0)),
+    (40901107, "ULTRASSONOGRAFIA OBSTETRICA", (100.0, 220.0)),
+    (41001010, "TOMOGRAFIA COMPUTADORIZADA DE CRANIO", (300.0, 600.0)),
+    (41001079, "TOMOGRAFIA COMPUTADORIZADA DE TORAX", (400.0, 800.0)),
+    (41001125, "TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR", (450.0, 900.0)),
+    (40201120, "ENDOSCOPIA DIGESTIVA ALTA", (350.0, 700.0)),
+
+    # TAXAS E MATERIAIS (Simulação códigos TISS/SIMPRO)
+    (60000001, "TAXA DE SALA DE OBSERVACAO", (50.0, 120.0)),
+    (60000002, "TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE", (20.0, 60.0)),
+    (70000010, "KIT DE ACESSO VENOSO", (25.0, 50.0)),
+    (70000350, "SERINGA DESCARTAVEL 5ML C/ AGULHA", (2.0, 5.0)),
+    (70000420, "LUVA CIRURGICA ESTERIL (PAR)", (3.0, 8.0)),
+    (70000810, "CATETER INTRAVENOSO PERIFERICO", (15.0, 35.0)),
+
+    # MEDICAMENTOS (Simulação códigos TISS/Brasíndice)
+    (90000010, "DIPIRONA SODICA 1G/2ML INJ", (3.0, 12.0)),
+    (90000020, "SORO FISIOLOGICO 0.9% 500ML SIST FECHADO", (8.0, 25.0)),
+    (90000030, "CETOPROFENO 100MG IM", (10.0, 30.0)),
+    (90010010, "AMOXICILINA 500MG (COMPRIMIDO)", (1.50, 4.00)),
+    (90010050, "CEFTRIAXONA 1G INJ", (25.0, 60.0)),
+    (90010120, "OMEPRAZOL 40MG PO LIOFILO INJ", (15.0, 40.0)),
+    (90020055, "ONDANSETRONA 4MG INJ", (12.0, 35.0)),
+    (90025010, "TRAMADOL 50MG INJ", (15.0, 45.0)),
+    (90030015, "DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ", (5.0, 15.0))
 ]
 
 # --- Dicionário de Glosas (Padrão TISS)
@@ -77,7 +128,7 @@ beneficiaries_db = [
     ("REX SLOAN", "VILTRUM005"), ("DUPLI-KATE", "VILTRUM006"), ("WILLIAM CLOCKWELL", "VILTRUM007")
 ]
 
-def generate_large_dataset(num_remessas=1, start_date=datetime(2023, 10, 1), target_rows=300):
+def generate_large_dataset(num_remessas, start_date, target_rows):
     data = []
     rows_generated = 0
     remessa_id = random.randint(10000, 99999)
@@ -289,8 +340,8 @@ if __name__ == "__main__":
     print("Iniciando geração de arquivos...")
 
     # Gera datasets
-    df1 = generate_large_dataset(target_rows=300, start_date=datetime(2023, 11, 1))
-    df2 = generate_large_dataset(target_rows=350, start_date=datetime(2023, 12, 1))
+    df1 = generate_large_dataset(num_remessas, start_date, target_rows, )
+    df2 = generate_large_dataset(num_remessas, start_date, target_rows)
 
     # Processa para demonstrativo
     rows1, sum1 = process_statement_data(df1)
