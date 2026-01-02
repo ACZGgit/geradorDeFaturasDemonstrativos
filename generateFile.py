@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import random
+import yaml
 from datetime import datetime, timedelta
 
 # --- Configurações ---
@@ -111,27 +112,45 @@ glosa_reasons = {
 
 # Banco de dados de Beneficiários (Expandido)
 beneficiaries_db = [
-    # Naruto
-    ("NARUTO UZUMAKI", "KONOHA001"), ("SASUKE UCHIHA", "KONOHA002"), ("SAKURA HARUNO", "KONOHA003"), ("KAKASHI HATAKE", "KONOHA004"),
-    ("HINATA HYUGA", "KONOHA005"), ("SHIKAMARU NARA", "KONOHA006"), ("TSUNADE SENJU", "KONOHA007"), ("JIRAIYA", "KONOHA008"),
+    # Bleach
+    ("ICHIGO KUROSAKI", "SOUL001"), ("RUKIA KUCHIKI", "SOUL002"), ("ORIHIME INOUE", "SOUL003"), ("URYU ISHIDA", "SOUL004"),
+    ("RENJI ABARAI", "SOUL005"), ("BYAKUYA KUCHIKI", "SOUL006"), ("KENPACHI ZARAKI", "SOUL007"), ("TOSHIRO HITSUGAYA", "SOUL008"),
+    ("RANGIKU MATSUMOTO", "SOUL009"), ("SOSUKE AIZEN", "SOUL010"),
+
+    # Boku no Hero Academia
+    ("IZUKU MIDORIYA", "UA001"), ("KATSUKI BAKUGO", "UA002"), ("OCHACO URARAKA", "UA003"), ("SHOTO TODOROKI", "UA004"),
+    ("TENYA IIDA", "UA005"), ("TSUYU ASUI", "UA006"), ("EIJIRO KIRISHIMA", "UA007"), ("ALL MIGHT", "UA008"),
+    ("SHOTA AIZAWA", "UA009"), ("ENDEAVOR", "UA010"),
+
     # Dr. Stone
     ("SENKU ISHIGAMI", "STONE001"), ("TAIJU OKI", "STONE002"), ("YUZURIHA OGAWA", "STONE003"), ("TSUKASA SHISHIO", "STONE004"),
     ("CHROME", "STONE005"), ("KOHAKU", "STONE006"), ("GEN ASAGIRI", "STONE007"),
+
     # Shingeki no Kyojin
     ("EREN YEAGER", "TITAN001"), ("MIKASA ACKERMAN", "TITAN002"), ("ARMIN ARLERT", "TITAN003"), ("LEVI ACKERMAN", "TITAN004"),
     ("ERWIN SMITH", "TITAN005"), ("HISTORIA REISS", "TITAN006"), ("REINER BRAUN", "TITAN007"),
+
     # One Punch Man
     ("SAITAMA", "HERO001"), ("GENOS", "HERO002"), ("TATSUMAKI", "HERO003"), ("BANG", "HERO004"),
     ("MUMEN RIDER", "HERO005"), ("FUBUKI", "HERO006"), ("KING", "HERO007"),
+
     # Invincible
     ("MARK GRAYSON", "VILTRUM001"), ("NOLAN GRAYSON", "VILTRUM002"), ("SAMANTHA EVE WILKINS", "VILTRUM003"), ("DEBBIE GRAYSON", "VILTRUM004"),
-    ("REX SLOAN", "VILTRUM005"), ("DUPLI-KATE", "VILTRUM006"), ("WILLIAM CLOCKWELL", "VILTRUM007")
+    ("REX SLOAN", "VILTRUM005"), ("DUPLI-KATE", "VILTRUM006"), ("WILLIAM CLOCKWELL", "VILTRUM007"),
+
+    # Star Wars
+    ("LUKE SKYWALKER", "JEDI001"), ("LEIA ORGANA", "JEDI002"), ("HAN SOLO", "JEDI003"), ("DARTH VADER", "SITH001"),
+    ("YODA", "JEDI004"), ("OBI-WAN KENOBI", "JEDI005"), ("PADME AMIDALA", "REP001"), ("CHEWBACCA", "JEDI006"),
+
+    # Harry Potter
+    ("HARRY POTTER", "HOG001"), ("HERMIONE GRANGER", "HOG002"), ("RON WEASLEY", "HOG003"), ("ALBUS DUMBLEDORE", "HOG004"),
+    ("SEVERUS SNAPE", "HOG005"), ("DRACO MALFOY", "SLY001"), ("RUBEUS HAGRID", "HOG006"), ("SIRIUS BLACK", "HOG007")
 ]
 
 def generate_large_dataset(num_remessas, start_date, target_rows):
     data = []
     rows_generated = 0
-    remessa_id = random.randint(10000, 99999)
+    remessa_id  = random.randint(10000, 99999)
     # Data Faturamento ~ 20 a 30 dias após start_date
     billing_date = start_date + timedelta(days=random.randint(20, 30))
     billing_date_str = billing_date.strftime("%Y-%m-%d 00:00:00.000000")
@@ -171,6 +190,9 @@ def generate_large_dataset(num_remessas, start_date, target_rows):
     return pd.DataFrame(data)
 
 def process_statement_data(df):
+
+    protocol_id = random.randint(10000, 99999)
+
     statement_rows = []
     billing_date_str = df['data_faturamento'].iloc[0]
     billing_date = datetime.strptime(billing_date_str, "%Y-%m-%d 00:00:00.000000")
@@ -232,12 +254,13 @@ def process_statement_data(df):
         })
 
     summary = {
-        "prestador": df['prestador'].iloc[0],
-        "remessa": df['numero_remessa'].iloc[0],
-        "data_pagamento": payment_date_str,
+        "prestador":       df['prestador'].iloc[0],
+        "remessa":         df['numero_remessa'].iloc[0],
+        "protocolo":       protocol_id,
+        "data_pagamento":  payment_date_str,
         "total_declarado": f"{total_declarado:.2f}".replace('.', ','),
-        "total_glosa": f"{total_glosa:.2f}".replace('.', ','),
-        "total_pago": f"{total_pago:.2f}".replace('.', ',')
+        "total_glosa":     f"{total_glosa:.2f}".replace('.', ','),
+        "total_pago":      f"{total_pago:.2f}".replace('.', ',')
     }
     return statement_rows, summary
 
@@ -273,6 +296,7 @@ tr:hover{{background-color:#f1f1f1}}
         <div>
             <p><strong>Prestador:</strong> {summary['prestador']}</p>
             <p><strong>Remessa (Lote):</strong> {summary['remessa']}</p>
+            <p><strong>Protocolo:</strong> {summary['protocolo']}</p>
         </div>
         <div>
             <p><strong>Data Pagamento:</strong> {summary['data_pagamento']}</p>
@@ -334,6 +358,43 @@ tr:hover{{background-color:#f1f1f1}}
 
     with open(filename, "w", encoding='utf-8') as f:
         f.write(html)
+
+
+def generate_yml(rows, summary, filename):
+    """Gera o arquivo YAML estruturado para o demonstrativo."""
+
+    # Estrutura os dados de forma mais hierárquica para o YAML
+    data_structure = {
+        "cabecalho_demonstrativo": {
+            "prestador": summary['prestador'],
+            "numero_remessa": summary['remessa'],
+            "data_pagamento": summary['data_pagamento'],
+            "resumo_financeiro": {
+                "total_declarado": summary['total_declarado'],
+                "total_glosado": summary['total_glosa'],
+                "total_liquido_pago": summary['total_pago']
+            }
+        },
+        "detalhes_itens": rows
+    }
+
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            yaml.dump(
+                data_structure,
+                f,
+                allow_unicode=True,
+                default_flow_style=False,
+                sort_keys=False,
+                indent=2
+            )
+        print(f"✅ YAML gerado: {filename}")
+    except Exception as e:
+        print(f"❌ Erro ao gerar YAML: {e}")
+
+
+
+
 
 # --- Execução Principal ---
 if __name__ == "__main__":
