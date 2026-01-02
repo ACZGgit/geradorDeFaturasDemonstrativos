@@ -367,7 +367,8 @@ def generate_yml(rows, summary, filename):
     data_structure = {
         "cabecalho_demonstrativo": {
             "prestador": summary['prestador'],
-            "numero_remessa": summary['remessa'],
+            "numero_remessa_lote": summary['remessa'],
+            "protocolo": summary['protocolo'],
             "data_pagamento": summary['data_pagamento'],
             "resumo_financeiro": {
                 "total_declarado": summary['total_declarado'],
@@ -408,13 +409,19 @@ if __name__ == "__main__":
     rows1, sum1 = process_statement_data(df1)
     rows2, sum2 = process_statement_data(df2)
 
-    # Salva CSVs (Padrão TISS original)
-    df1.to_csv(files_path + "faturamento_konoha_003.csv", index=False)
-    df2.to_csv(files_path + "faturamento_konoha_004.csv", index=False)
+    # Nomes dos arquivos
+    csv_name1            = "faturamento_konoha_003.csv"
+    csv_name2            = "faturamento_konoha_004.csv"
+    demonstrativo_html_1 = "demonstrativo_konoha_003.html"
+    demonstrativo_yml_1  = "demonstrativo_konoha_004.yml"
 
-    # Salva HTMLs
-    generate_html(rows1, sum1, files_path + "demonstrativo_konoha_003.html")
-    generate_html(rows2, sum2, files_path + "demonstrativo_konoha_004.html")
+    #Gerando arquivos de faturamento
+    df1.to_csv(files_path + csv_name1, index=False)
+    df2.to_csv(files_path + csv_name2, index=False)
+
+    #Gerando arquivos de demonstrativo
+    generate_html(rows1, sum1,  files_path + demonstrativo_html_1)
+    generate_yml(rows2, sum2,   files_path + demonstrativo_yml_1)
 
     print("Concluído com sucesso!")
     print("Arquivos gerados na pasta" + files_path + ":")
