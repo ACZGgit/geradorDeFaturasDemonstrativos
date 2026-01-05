@@ -1,0 +1,6510 @@
+cabecalho_demonstrativo:
+  prestador: HOSPITAL BOM ATENDIMENTO
+  numero_remessa_lote: 75211
+  protocolo: 87640
+  data_pagamento: 25/11/2023
+  resumo_financeiro:
+    total_declarado: 83695,88
+    total_glosado: 20647,08
+    total_liquido_pago: 63048,80
+detalhes_itens:
+- guia_prestador: 4440904834
+  guia_operadora: 5630780803
+  senha: 65640
+  beneficiario: SAITAMA
+  matricula: HERO001
+  data_atendimento: 03/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 136,78
+  valor_glosa: 91,18
+  codigo_glosa: '1002'
+  motivo_glosa: A guia não pertence ao sistema
+  valor_pago: 45,60
+- guia_prestador: 4440904834
+  guia_operadora: 5630780803
+  senha: 65640
+  beneficiario: SAITAMA
+  matricula: HERO001
+  data_atendimento: 03/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 8,42
+  valor_glosa: 7,83
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 0,59
+- guia_prestador: 4440904834
+  guia_operadora: 5630780803
+  senha: 65640
+  beneficiario: SAITAMA
+  matricula: HERO001
+  data_atendimento: 03/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 62,78
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 62,78
+- guia_prestador: 4440904834
+  guia_operadora: 5630780803
+  senha: 65640
+  beneficiario: SAITAMA
+  matricula: HERO001
+  data_atendimento: 03/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 16,28
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,28
+- guia_prestador: 4440904834
+  guia_operadora: 5630780803
+  senha: 65640
+  beneficiario: SAITAMA
+  matricula: HERO001
+  data_atendimento: 03/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1397,63
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1397,63
+- guia_prestador: 4440904834
+  guia_operadora: 5630780803
+  senha: 65640
+  beneficiario: SAITAMA
+  matricula: HERO001
+  data_atendimento: 03/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 469,06
+  valor_glosa: 350,67
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 118,39
+- guia_prestador: 7163022531
+  guia_operadora: 9068424407
+  senha: 93816
+  beneficiario: REX SLOAN
+  matricula: VILTRUM005
+  data_atendimento: 02/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 612,46
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 612,46
+- guia_prestador: 7163022531
+  guia_operadora: 9068424407
+  senha: 93816
+  beneficiario: REX SLOAN
+  matricula: VILTRUM005
+  data_atendimento: 02/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 29,00
+  valor_glosa: 18,73
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 10,27
+- guia_prestador: 7163022531
+  guia_operadora: 9068424407
+  senha: 93816
+  beneficiario: REX SLOAN
+  matricula: VILTRUM005
+  data_atendimento: 02/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 51,25
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 51,25
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 18,61
+  valor_glosa: 15,77
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 2,84
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 38,24
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 38,24
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 171,74
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 171,74
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 494,87
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 494,87
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 437,36
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 437,36
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 14,61
+  valor_glosa: 10,48
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 4,13
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 21,04
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,04
+- guia_prestador: 1149460439
+  guia_operadora: 9907911245
+  senha: 18812
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 08/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 3,50
+  valor_glosa: 1,54
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 1,96
+- guia_prestador: 5800746936
+  guia_operadora: 7939337464
+  senha: 44116
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 15/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 6,23
+  valor_glosa: 1,76
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 4,47
+- guia_prestador: 5800746936
+  guia_operadora: 7939337464
+  senha: 44116
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 15/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 22,79
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,79
+- guia_prestador: 5800746936
+  guia_operadora: 7939337464
+  senha: 44116
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 15/10/23
+  codigo: 90010050
+  descricao: CEFTRIAXONA 1G INJ
+  valor_declarado: 40,82
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 40,82
+- guia_prestador: 5800746936
+  guia_operadora: 7939337464
+  senha: 44116
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 15/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 23,68
+  valor_glosa: 21,58
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 2,10
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 40306135
+  descricao: TGP (ALANINA AMINOTRANSFERASE)
+  valor_declarado: 21,91
+  valor_glosa: 17,65
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 4,26
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1664,88
+  valor_glosa: 1154,52
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 510,36
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 53,64
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 53,64
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 90010010
+  descricao: AMOXICILINA 500MG (COMPRIMIDO)
+  valor_declarado: 2,00
+  valor_glosa: 1,89
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 0,11
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 10,36
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 10,36
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 51,61
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 51,61
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 15,66
+  valor_glosa: 2,18
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 13,48
+- guia_prestador: 5283209430
+  guia_operadora: 8231461054
+  senha: 99381
+  beneficiario: HARRY POTTER
+  matricula: HOG001
+  data_atendimento: 11/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 621,61
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 621,61
+- guia_prestador: 4797809576
+  guia_operadora: 8301419700
+  senha: 18617
+  beneficiario: WILLIAM CLOCKWELL
+  matricula: VILTRUM007
+  data_atendimento: 10/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 14,72
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 14,72
+- guia_prestador: 4797809576
+  guia_operadora: 8301419700
+  senha: 18617
+  beneficiario: WILLIAM CLOCKWELL
+  matricula: VILTRUM007
+  data_atendimento: 10/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 45,69
+  valor_glosa: 37,66
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 8,03
+- guia_prestador: 4797809576
+  guia_operadora: 8301419700
+  senha: 18617
+  beneficiario: WILLIAM CLOCKWELL
+  matricula: VILTRUM007
+  data_atendimento: 10/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 63,50
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 63,50
+- guia_prestador: 4797809576
+  guia_operadora: 8301419700
+  senha: 18617
+  beneficiario: WILLIAM CLOCKWELL
+  matricula: VILTRUM007
+  data_atendimento: 10/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 4,04
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 4,04
+- guia_prestador: 4797809576
+  guia_operadora: 8301419700
+  senha: 18617
+  beneficiario: WILLIAM CLOCKWELL
+  matricula: VILTRUM007
+  data_atendimento: 10/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 6,10
+  valor_glosa: 4,81
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 1,29
+- guia_prestador: 4797809576
+  guia_operadora: 8301419700
+  senha: 18617
+  beneficiario: WILLIAM CLOCKWELL
+  matricula: VILTRUM007
+  data_atendimento: 10/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 2292,53
+  valor_glosa: 2038,26
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 254,27
+- guia_prestador: 5849159641
+  guia_operadora: 9801037297
+  senha: 75911
+  beneficiario: TSUKASA SHISHIO
+  matricula: STONE004
+  data_atendimento: 02/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 87,39
+  valor_glosa: 9,17
+  codigo_glosa: '1001'
+  motivo_glosa: Número da carteira inválido
+  valor_pago: 78,22
+- guia_prestador: 5849159641
+  guia_operadora: 9801037297
+  senha: 75911
+  beneficiario: TSUKASA SHISHIO
+  matricula: STONE004
+  data_atendimento: 02/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 10,71
+  valor_glosa: 7,38
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 3,33
+- guia_prestador: 5849159641
+  guia_operadora: 9801037297
+  senha: 75911
+  beneficiario: TSUKASA SHISHIO
+  matricula: STONE004
+  data_atendimento: 02/10/23
+  codigo: 20201046
+  descricao: CARDIOVERSAO ELETRICA DE EMERGENCIA
+  valor_declarado: 489,50
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 489,50
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 15,94
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,94
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 19,37
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,37
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 760,80
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 760,80
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 401,29
+  valor_glosa: 233,75
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 167,54
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 577,18
+  valor_glosa: 200,86
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 376,32
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 416,48
+  valor_glosa: 118,00
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 298,48
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 203,65
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 203,65
+- guia_prestador: 4633257620
+  guia_operadora: 5457771446
+  senha: 42847
+  beneficiario: TATSUMAKI
+  matricula: HERO003
+  data_atendimento: 07/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 130,56
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 130,56
+- guia_prestador: 3796581976
+  guia_operadora: 9245610678
+  senha: 84991
+  beneficiario: REINER BRAUN
+  matricula: TITAN007
+  data_atendimento: 14/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 674,00
+  valor_glosa: 404,01
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 269,99
+- guia_prestador: 3796581976
+  guia_operadora: 9245610678
+  senha: 84991
+  beneficiario: REINER BRAUN
+  matricula: TITAN007
+  data_atendimento: 14/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 15,87
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,87
+- guia_prestador: 3796581976
+  guia_operadora: 9245610678
+  senha: 84991
+  beneficiario: REINER BRAUN
+  matricula: TITAN007
+  data_atendimento: 14/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 429,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 429,19
+- guia_prestador: 3796581976
+  guia_operadora: 9245610678
+  senha: 84991
+  beneficiario: REINER BRAUN
+  matricula: TITAN007
+  data_atendimento: 14/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 10,90
+  valor_glosa: 2,44
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 8,46
+- guia_prestador: 3796581976
+  guia_operadora: 9245610678
+  senha: 84991
+  beneficiario: REINER BRAUN
+  matricula: TITAN007
+  data_atendimento: 14/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 22,11
+  valor_glosa: 6,78
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 15,33
+- guia_prestador: 3796581976
+  guia_operadora: 9245610678
+  senha: 84991
+  beneficiario: REINER BRAUN
+  matricula: TITAN007
+  data_atendimento: 14/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 18,30
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 18,30
+- guia_prestador: 3796581976
+  guia_operadora: 9245610678
+  senha: 84991
+  beneficiario: REINER BRAUN
+  matricula: TITAN007
+  data_atendimento: 14/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 19,08
+  valor_glosa: 10,64
+  codigo_glosa: '1419'
+  motivo_glosa: Procedimento não autorizado
+  valor_pago: 8,44
+- guia_prestador: 8380312396
+  guia_operadora: 5223565082
+  senha: 55268
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 13/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 2,37
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 2,37
+- guia_prestador: 8380312396
+  guia_operadora: 5223565082
+  senha: 55268
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 13/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 67,98
+  valor_glosa: 45,70
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 22,28
+- guia_prestador: 8380312396
+  guia_operadora: 5223565082
+  senha: 55268
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 13/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 178,18
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 178,18
+- guia_prestador: 8380312396
+  guia_operadora: 5223565082
+  senha: 55268
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 13/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 16,01
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,01
+- guia_prestador: 2795875043
+  guia_operadora: 5378561387
+  senha: 30932
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 11/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 23,60
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 23,60
+- guia_prestador: 2795875043
+  guia_operadora: 5378561387
+  senha: 30932
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 11/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 248,31
+  valor_glosa: 107,70
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 140,61
+- guia_prestador: 2795875043
+  guia_operadora: 5378561387
+  senha: 30932
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 11/10/23
+  codigo: 20201046
+  descricao: CARDIOVERSAO ELETRICA DE EMERGENCIA
+  valor_declarado: 391,45
+  valor_glosa: 174,54
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 216,91
+- guia_prestador: 2795875043
+  guia_operadora: 5378561387
+  senha: 30932
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 11/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 7,41
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 7,41
+- guia_prestador: 2795875043
+  guia_operadora: 5378561387
+  senha: 30932
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 11/10/23
+  codigo: 40311198
+  descricao: URINA TIPO I
+  valor_declarado: 15,83
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,83
+- guia_prestador: 2795875043
+  guia_operadora: 5378561387
+  senha: 30932
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 11/10/23
+  codigo: 90010010
+  descricao: AMOXICILINA 500MG (COMPRIMIDO)
+  valor_declarado: 1,62
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1,62
+- guia_prestador: 2795875043
+  guia_operadora: 5378561387
+  senha: 30932
+  beneficiario: LEIA ORGANA
+  matricula: JEDI002
+  data_atendimento: 11/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 15,66
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,66
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 16,76
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,76
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 38,75
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 38,75
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 27,38
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 27,38
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 24,35
+  valor_glosa: 16,83
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 7,52
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 68,33
+  valor_glosa: 8,90
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 59,43
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 11,93
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 11,93
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 11,45
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 11,45
+- guia_prestador: 5756663747
+  guia_operadora: 8522855590
+  senha: 27555
+  beneficiario: SEVERUS SNAPE
+  matricula: HOG005
+  data_atendimento: 09/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 34,33
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,33
+- guia_prestador: 1619623590
+  guia_operadora: 6545071541
+  senha: 88966
+  beneficiario: SAMANTHA EVE WILKINS
+  matricula: VILTRUM003
+  data_atendimento: 13/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 120,97
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 120,97
+- guia_prestador: 1619623590
+  guia_operadora: 6545071541
+  senha: 88966
+  beneficiario: SAMANTHA EVE WILKINS
+  matricula: VILTRUM003
+  data_atendimento: 13/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 239,71
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 239,71
+- guia_prestador: 1619623590
+  guia_operadora: 6545071541
+  senha: 88966
+  beneficiario: SAMANTHA EVE WILKINS
+  matricula: VILTRUM003
+  data_atendimento: 13/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 32,74
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 32,74
+- guia_prestador: 1619623590
+  guia_operadora: 6545071541
+  senha: 88966
+  beneficiario: SAMANTHA EVE WILKINS
+  matricula: VILTRUM003
+  data_atendimento: 13/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 22,86
+  valor_glosa: 7,96
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 14,90
+- guia_prestador: 1619623590
+  guia_operadora: 6545071541
+  senha: 88966
+  beneficiario: SAMANTHA EVE WILKINS
+  matricula: VILTRUM003
+  data_atendimento: 13/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 74,66
+  valor_glosa: 34,02
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 40,64
+- guia_prestador: 1619623590
+  guia_operadora: 6545071541
+  senha: 88966
+  beneficiario: SAMANTHA EVE WILKINS
+  matricula: VILTRUM003
+  data_atendimento: 13/10/23
+  codigo: 20201046
+  descricao: CARDIOVERSAO ELETRICA DE EMERGENCIA
+  valor_declarado: 468,52
+  valor_glosa: 53,33
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 415,19
+- guia_prestador: 1619623590
+  guia_operadora: 6545071541
+  senha: 88966
+  beneficiario: SAMANTHA EVE WILKINS
+  matricula: VILTRUM003
+  data_atendimento: 13/10/23
+  codigo: 90010010
+  descricao: AMOXICILINA 500MG (COMPRIMIDO)
+  valor_declarado: 2,98
+  valor_glosa: 0,54
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 2,44
+- guia_prestador: 6582557981
+  guia_operadora: 7503675679
+  senha: 12180
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 12/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 590,82
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 590,82
+- guia_prestador: 6582557981
+  guia_operadora: 7503675679
+  senha: 12180
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 12/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 5,27
+  valor_glosa: 4,39
+  codigo_glosa: '1211'
+  motivo_glosa: Assinatura do médico ou prestador ausente
+  valor_pago: 0,88
+- guia_prestador: 6582557981
+  guia_operadora: 7503675679
+  senha: 12180
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 12/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 156,95
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 156,95
+- guia_prestador: 6582557981
+  guia_operadora: 7503675679
+  senha: 12180
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 12/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 34,34
+  valor_glosa: 32,17
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 2,17
+- guia_prestador: 6582557981
+  guia_operadora: 7503675679
+  senha: 12180
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 12/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 51,32
+  valor_glosa: 13,22
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 38,10
+- guia_prestador: 4098389895
+  guia_operadora: 9797517118
+  senha: 86483
+  beneficiario: ARMIN ARLERT
+  matricula: TITAN003
+  data_atendimento: 16/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 74,65
+  valor_glosa: 12,33
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 62,32
+- guia_prestador: 4098389895
+  guia_operadora: 9797517118
+  senha: 86483
+  beneficiario: ARMIN ARLERT
+  matricula: TITAN003
+  data_atendimento: 16/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 29,69
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 29,69
+- guia_prestador: 4098389895
+  guia_operadora: 9797517118
+  senha: 86483
+  beneficiario: ARMIN ARLERT
+  matricula: TITAN003
+  data_atendimento: 16/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 5,86
+  valor_glosa: 3,42
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 2,44
+- guia_prestador: 4098389895
+  guia_operadora: 9797517118
+  senha: 86483
+  beneficiario: ARMIN ARLERT
+  matricula: TITAN003
+  data_atendimento: 16/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 42,51
+  valor_glosa: 21,19
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 21,32
+- guia_prestador: 5376302686
+  guia_operadora: 8306983924
+  senha: 51116
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 36,79
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 36,79
+- guia_prestador: 5376302686
+  guia_operadora: 8306983924
+  senha: 51116
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 362,09
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 362,09
+- guia_prestador: 5376302686
+  guia_operadora: 8306983924
+  senha: 51116
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 79,10
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 79,10
+- guia_prestador: 5376302686
+  guia_operadora: 8306983924
+  senha: 51116
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 511,73
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 511,73
+- guia_prestador: 7703957637
+  guia_operadora: 5117470362
+  senha: 96799
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 16/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 42,02
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 42,02
+- guia_prestador: 7703957637
+  guia_operadora: 5117470362
+  senha: 96799
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 16/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 30,48
+  valor_glosa: 4,90
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 25,58
+- guia_prestador: 7703957637
+  guia_operadora: 5117470362
+  senha: 96799
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 16/10/23
+  codigo: 40311198
+  descricao: URINA TIPO I
+  valor_declarado: 12,64
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 12,64
+- guia_prestador: 7703957637
+  guia_operadora: 5117470362
+  senha: 96799
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 16/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 64,53
+  valor_glosa: 47,18
+  codigo_glosa: '1419'
+  motivo_glosa: Procedimento não autorizado
+  valor_pago: 17,35
+- guia_prestador: 7703957637
+  guia_operadora: 5117470362
+  senha: 96799
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 16/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 78,72
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 78,72
+- guia_prestador: 7703957637
+  guia_operadora: 5117470362
+  senha: 96799
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 16/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 447,65
+  valor_glosa: 260,57
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 187,08
+- guia_prestador: 7703957637
+  guia_operadora: 5117470362
+  senha: 96799
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 16/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 15,97
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,97
+- guia_prestador: 8607135564
+  guia_operadora: 6468848245
+  senha: 37168
+  beneficiario: MUMEN RIDER
+  matricula: HERO005
+  data_atendimento: 16/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 19,46
+  valor_glosa: 3,57
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 15,89
+- guia_prestador: 8607135564
+  guia_operadora: 6468848245
+  senha: 37168
+  beneficiario: MUMEN RIDER
+  matricula: HERO005
+  data_atendimento: 16/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 66,30
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 66,30
+- guia_prestador: 8607135564
+  guia_operadora: 6468848245
+  senha: 37168
+  beneficiario: MUMEN RIDER
+  matricula: HERO005
+  data_atendimento: 16/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 37,39
+  valor_glosa: 14,30
+  codigo_glosa: '1204'
+  motivo_glosa: Acomodação não contratada
+  valor_pago: 23,09
+- guia_prestador: 8607135564
+  guia_operadora: 6468848245
+  senha: 37168
+  beneficiario: MUMEN RIDER
+  matricula: HERO005
+  data_atendimento: 16/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 35,78
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 35,78
+- guia_prestador: 8607135564
+  guia_operadora: 6468848245
+  senha: 37168
+  beneficiario: MUMEN RIDER
+  matricula: HERO005
+  data_atendimento: 16/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 15,18
+  valor_glosa: 14,46
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 0,72
+- guia_prestador: 2247484671
+  guia_operadora: 5816763181
+  senha: 47700
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 03/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 21,78
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,78
+- guia_prestador: 2247484671
+  guia_operadora: 5816763181
+  senha: 47700
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 03/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 702,91
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 702,91
+- guia_prestador: 2247484671
+  guia_operadora: 5816763181
+  senha: 47700
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 03/10/23
+  codigo: 70000010
+  descricao: KIT DE ACESSO VENOSO
+  valor_declarado: 31,79
+  valor_glosa: 10,10
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 21,69
+- guia_prestador: 2247484671
+  guia_operadora: 5816763181
+  senha: 47700
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 03/10/23
+  codigo: 30201012
+  descricao: ELETROCARDIOGRAMA CONVENCIONAL
+  valor_declarado: 44,37
+  valor_glosa: 12,53
+  codigo_glosa: '1211'
+  motivo_glosa: Assinatura do médico ou prestador ausente
+  valor_pago: 31,84
+- guia_prestador: 2247484671
+  guia_operadora: 5816763181
+  senha: 47700
+  beneficiario: SHOTA AIZAWA
+  matricula: UA009
+  data_atendimento: 03/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 9,67
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 9,67
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 18,16
+  valor_glosa: 14,55
+  codigo_glosa: '1009'
+  motivo_glosa: Beneficiário com pagamento em aberto
+  valor_pago: 3,61
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 495,87
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 495,87
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 18,57
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 18,57
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 40311198
+  descricao: URINA TIPO I
+  valor_declarado: 14,76
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 14,76
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 577,69
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 577,69
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 77,80
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 77,80
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 23,62
+  valor_glosa: 12,61
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 11,01
+- guia_prestador: 2041349374
+  guia_operadora: 8952177946
+  senha: 97796
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 08/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 23,56
+  valor_glosa: 21,40
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 2,16
+- guia_prestador: 9974165440
+  guia_operadora: 7107992942
+  senha: 85252
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 70000010
+  descricao: KIT DE ACESSO VENOSO
+  valor_declarado: 25,91
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 25,91
+- guia_prestador: 9974165440
+  guia_operadora: 7107992942
+  senha: 85252
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 22,22
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,22
+- guia_prestador: 9974165440
+  guia_operadora: 7107992942
+  senha: 85252
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 218,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 218,19
+- guia_prestador: 9974165440
+  guia_operadora: 7107992942
+  senha: 85252
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 19,66
+  valor_glosa: 5,90
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 13,76
+- guia_prestador: 9974165440
+  guia_operadora: 7107992942
+  senha: 85252
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 40305023
+  descricao: PROTEINA C REATIVA, QUALITATIVA
+  valor_declarado: 26,24
+  valor_glosa: 15,04
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 11,20
+- guia_prestador: 9974165440
+  guia_operadora: 7107992942
+  senha: 85252
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 22,83
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,83
+- guia_prestador: 9974165440
+  guia_operadora: 7107992942
+  senha: 85252
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 22,24
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,24
+- guia_prestador: 5334769475
+  guia_operadora: 5750761833
+  senha: 84443
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 04/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 22,77
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,77
+- guia_prestador: 5334769475
+  guia_operadora: 5750761833
+  senha: 84443
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 04/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 9,68
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 9,68
+- guia_prestador: 5334769475
+  guia_operadora: 5750761833
+  senha: 84443
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 04/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 55,78
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 55,78
+- guia_prestador: 5334769475
+  guia_operadora: 5750761833
+  senha: 84443
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 04/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 13,46
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 13,46
+- guia_prestador: 5334769475
+  guia_operadora: 5750761833
+  senha: 84443
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 04/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 15,74
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,74
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 40306135
+  descricao: TGP (ALANINA AMINOTRANSFERASE)
+  valor_declarado: 14,92
+  valor_glosa: 4,32
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 10,60
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 12,81
+  valor_glosa: 11,22
+  codigo_glosa: '1203'
+  motivo_glosa: Acomodação não autorizada
+  valor_pago: 1,59
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 383,38
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 383,38
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 395,42
+  valor_glosa: 207,28
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 188,14
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 443,24
+  valor_glosa: 117,69
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 325,55
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 774,33
+  valor_glosa: 565,76
+  codigo_glosa: '1426'
+  motivo_glosa: Procedimento/item não coberto pelo rol da ANS
+  valor_pago: 208,57
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 25,17
+  valor_glosa: 11,59
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 13,58
+- guia_prestador: 8079331637
+  guia_operadora: 5432708635
+  senha: 34405
+  beneficiario: RON WEASLEY
+  matricula: HOG003
+  data_atendimento: 01/10/23
+  codigo: 40305023
+  descricao: PROTEINA C REATIVA, QUALITATIVA
+  valor_declarado: 20,75
+  valor_glosa: 4,52
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 16,23
+- guia_prestador: 8532327465
+  guia_operadora: 8496922300
+  senha: 53204
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 10/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 36,22
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 36,22
+- guia_prestador: 8532327465
+  guia_operadora: 8496922300
+  senha: 53204
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 10/10/23
+  codigo: 10101012
+  descricao: CONSULTA EM PRONTO SOCORRO
+  valor_declarado: 115,18
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 115,18
+- guia_prestador: 8532327465
+  guia_operadora: 8496922300
+  senha: 53204
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 10/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 852,80
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 852,80
+- guia_prestador: 8532327465
+  guia_operadora: 8496922300
+  senha: 53204
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 10/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 99,25
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 99,25
+- guia_prestador: 8532327465
+  guia_operadora: 8496922300
+  senha: 53204
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 10/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 19,66
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,66
+- guia_prestador: 8532327465
+  guia_operadora: 8496922300
+  senha: 53204
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 10/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 173,48
+  valor_glosa: 142,26
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 31,22
+- guia_prestador: 8532327465
+  guia_operadora: 8496922300
+  senha: 53204
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 10/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 18,99
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 18,99
+- guia_prestador: 1948540266
+  guia_operadora: 8094783061
+  senha: 27507
+  beneficiario: BANG
+  matricula: HERO004
+  data_atendimento: 16/10/23
+  codigo: 40302489
+  descricao: TRIGLICERIDEOS
+  valor_declarado: 26,60
+  valor_glosa: 12,75
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 13,85
+- guia_prestador: 1948540266
+  guia_operadora: 8094783061
+  senha: 27507
+  beneficiario: BANG
+  matricula: HERO004
+  data_atendimento: 16/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 12,57
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 12,57
+- guia_prestador: 1948540266
+  guia_operadora: 8094783061
+  senha: 27507
+  beneficiario: BANG
+  matricula: HERO004
+  data_atendimento: 16/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 22,03
+  valor_glosa: 13,35
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 8,68
+- guia_prestador: 1948540266
+  guia_operadora: 8094783061
+  senha: 27507
+  beneficiario: BANG
+  matricula: HERO004
+  data_atendimento: 16/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 107,79
+  valor_glosa: 20,38
+  codigo_glosa: '1203'
+  motivo_glosa: Acomodação não autorizada
+  valor_pago: 87,41
+- guia_prestador: 4381731378
+  guia_operadora: 5413613460
+  senha: 78879
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 15/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 60,49
+  valor_glosa: 50,35
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 10,14
+- guia_prestador: 4381731378
+  guia_operadora: 5413613460
+  senha: 78879
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 15/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1357,80
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1357,80
+- guia_prestador: 4381731378
+  guia_operadora: 5413613460
+  senha: 78879
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 15/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 187,64
+  valor_glosa: 79,61
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 108,03
+- guia_prestador: 4381731378
+  guia_operadora: 5413613460
+  senha: 78879
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 15/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 16,74
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,74
+- guia_prestador: 4381731378
+  guia_operadora: 5413613460
+  senha: 78879
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 15/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 56,16
+  valor_glosa: 6,62
+  codigo_glosa: '1009'
+  motivo_glosa: Beneficiário com pagamento em aberto
+  valor_pago: 49,54
+- guia_prestador: 4381731378
+  guia_operadora: 5413613460
+  senha: 78879
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 15/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 73,33
+  valor_glosa: 52,18
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 21,15
+- guia_prestador: 4381731378
+  guia_operadora: 5413613460
+  senha: 78879
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 15/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 131,82
+  valor_glosa: 81,50
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 50,32
+- guia_prestador: 4473306055
+  guia_operadora: 6222385190
+  senha: 69432
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 05/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 25,08
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 25,08
+- guia_prestador: 4473306055
+  guia_operadora: 6222385190
+  senha: 69432
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 05/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 148,33
+  valor_glosa: 82,98
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 65,35
+- guia_prestador: 4473306055
+  guia_operadora: 6222385190
+  senha: 69432
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 05/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 52,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 52,19
+- guia_prestador: 4473306055
+  guia_operadora: 6222385190
+  senha: 69432
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 05/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 498,29
+  valor_glosa: 178,32
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 319,97
+- guia_prestador: 4473306055
+  guia_operadora: 6222385190
+  senha: 69432
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 05/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 16,40
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,40
+- guia_prestador: 4473306055
+  guia_operadora: 6222385190
+  senha: 69432
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 05/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 181,17
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 181,17
+- guia_prestador: 4473306055
+  guia_operadora: 6222385190
+  senha: 69432
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 05/10/23
+  codigo: 40301011
+  descricao: GLICOSE
+  valor_declarado: 5,60
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 5,60
+- guia_prestador: 3027530378
+  guia_operadora: 8895849088
+  senha: 47629
+  beneficiario: RANGIKU MATSUMOTO
+  matricula: SOUL009
+  data_atendimento: 14/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 3,26
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 3,26
+- guia_prestador: 3027530378
+  guia_operadora: 8895849088
+  senha: 47629
+  beneficiario: RANGIKU MATSUMOTO
+  matricula: SOUL009
+  data_atendimento: 14/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 4,98
+  valor_glosa: 2,04
+  codigo_glosa: '1419'
+  motivo_glosa: Procedimento não autorizado
+  valor_pago: 2,94
+- guia_prestador: 3027530378
+  guia_operadora: 8895849088
+  senha: 47629
+  beneficiario: RANGIKU MATSUMOTO
+  matricula: SOUL009
+  data_atendimento: 14/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 26,47
+  valor_glosa: 9,59
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 16,88
+- guia_prestador: 3027530378
+  guia_operadora: 8895849088
+  senha: 47629
+  beneficiario: RANGIKU MATSUMOTO
+  matricula: SOUL009
+  data_atendimento: 14/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 841,33
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 841,33
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 29,57
+  valor_glosa: 26,58
+  codigo_glosa: '1426'
+  motivo_glosa: Procedimento/item não coberto pelo rol da ANS
+  valor_pago: 2,99
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 242,60
+  valor_glosa: 210,77
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 31,83
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 12,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 12,19
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 35,60
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 35,60
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 58,96
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 58,96
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 21,89
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,89
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 15,83
+  valor_glosa: 3,96
+  codigo_glosa: '1009'
+  motivo_glosa: Beneficiário com pagamento em aberto
+  valor_pago: 11,87
+- guia_prestador: 2613385303
+  guia_operadora: 6933975047
+  senha: 99486
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 05/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 2,47
+  valor_glosa: 2,33
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 0,14
+- guia_prestador: 1484664056
+  guia_operadora: 9408203716
+  senha: 96533
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 4,11
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 4,11
+- guia_prestador: 1484664056
+  guia_operadora: 9408203716
+  senha: 96533
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 90010010
+  descricao: AMOXICILINA 500MG (COMPRIMIDO)
+  valor_declarado: 1,62
+  valor_glosa: 1,28
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 0,34
+- guia_prestador: 1484664056
+  guia_operadora: 9408203716
+  senha: 96533
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 10101012
+  descricao: CONSULTA EM PRONTO SOCORRO
+  valor_declarado: 131,84
+  valor_glosa: 86,53
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 45,31
+- guia_prestador: 1484664056
+  guia_operadora: 9408203716
+  senha: 96533
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 250,57
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 250,57
+- guia_prestador: 1484664056
+  guia_operadora: 9408203716
+  senha: 96533
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 370,30
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 370,30
+- guia_prestador: 1484664056
+  guia_operadora: 9408203716
+  senha: 96533
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 132,59
+  valor_glosa: 42,78
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 89,81
+- guia_prestador: 1484664056
+  guia_operadora: 9408203716
+  senha: 96533
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 14/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 203,65
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 203,65
+- guia_prestador: 9561946187
+  guia_operadora: 5122712790
+  senha: 40692
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 11/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 136,06
+  valor_glosa: 78,11
+  codigo_glosa: '1203'
+  motivo_glosa: Acomodação não autorizada
+  valor_pago: 57,95
+- guia_prestador: 9561946187
+  guia_operadora: 5122712790
+  senha: 40692
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 11/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 371,34
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 371,34
+- guia_prestador: 9561946187
+  guia_operadora: 5122712790
+  senha: 40692
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 11/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 19,38
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,38
+- guia_prestador: 9561946187
+  guia_operadora: 5122712790
+  senha: 40692
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 11/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 18,56
+  valor_glosa: 9,81
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 8,75
+- guia_prestador: 9561946187
+  guia_operadora: 5122712790
+  senha: 40692
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 11/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 85,58
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 85,58
+- guia_prestador: 9561946187
+  guia_operadora: 5122712790
+  senha: 40692
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 11/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 731,70
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 731,70
+- guia_prestador: 9561946187
+  guia_operadora: 5122712790
+  senha: 40692
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 11/10/23
+  codigo: 30201012
+  descricao: ELETROCARDIOGRAMA CONVENCIONAL
+  valor_declarado: 57,09
+  valor_glosa: 54,44
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 2,65
+- guia_prestador: 7547518979
+  guia_operadora: 7292585396
+  senha: 64568
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 14/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 10,70
+  valor_glosa: 6,82
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 3,88
+- guia_prestador: 7547518979
+  guia_operadora: 7292585396
+  senha: 64568
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 14/10/23
+  codigo: 30906060
+  descricao: RESSONANCIA MAGNETICA DE CRANIO
+  valor_declarado: 1114,52
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1114,52
+- guia_prestador: 7547518979
+  guia_operadora: 7292585396
+  senha: 64568
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 14/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 54,33
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 54,33
+- guia_prestador: 7547518979
+  guia_operadora: 7292585396
+  senha: 64568
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 14/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 24,26
+  valor_glosa: 4,38
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 19,88
+- guia_prestador: 7710396573
+  guia_operadora: 5045336904
+  senha: 64592
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 05/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 29,49
+  valor_glosa: 9,84
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 19,65
+- guia_prestador: 7710396573
+  guia_operadora: 5045336904
+  senha: 64592
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 05/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 197,62
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 197,62
+- guia_prestador: 7710396573
+  guia_operadora: 5045336904
+  senha: 64592
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 05/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 570,81
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 570,81
+- guia_prestador: 7710396573
+  guia_operadora: 5045336904
+  senha: 64592
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 05/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 31,84
+  valor_glosa: 11,40
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 20,44
+- guia_prestador: 7710396573
+  guia_operadora: 5045336904
+  senha: 64592
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 05/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 18,25
+  valor_glosa: 16,97
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 1,28
+- guia_prestador: 7710396573
+  guia_operadora: 5045336904
+  senha: 64592
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 05/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 562,09
+  valor_glosa: 443,65
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 118,44
+- guia_prestador: 6227046160
+  guia_operadora: 8422089886
+  senha: 37379
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 11/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 34,99
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,99
+- guia_prestador: 6227046160
+  guia_operadora: 8422089886
+  senha: 37379
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 11/10/23
+  codigo: 10101012
+  descricao: CONSULTA EM PRONTO SOCORRO
+  valor_declarado: 113,52
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 113,52
+- guia_prestador: 6227046160
+  guia_operadora: 8422089886
+  senha: 37379
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 11/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 21,06
+  valor_glosa: 18,83
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 2,23
+- guia_prestador: 6227046160
+  guia_operadora: 8422089886
+  senha: 37379
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 11/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 33,13
+  valor_glosa: 8,18
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 24,95
+- guia_prestador: 6227046160
+  guia_operadora: 8422089886
+  senha: 37379
+  beneficiario: CHROME
+  matricula: STONE005
+  data_atendimento: 11/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 190,90
+  valor_glosa: 84,10
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 106,80
+- guia_prestador: 7666129822
+  guia_operadora: 7940507653
+  senha: 47101
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 13/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 79,44
+  valor_glosa: 52,65
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 26,79
+- guia_prestador: 7666129822
+  guia_operadora: 7940507653
+  senha: 47101
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 13/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 17,04
+  valor_glosa: 13,10
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 3,94
+- guia_prestador: 7666129822
+  guia_operadora: 7940507653
+  senha: 47101
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 13/10/23
+  codigo: 40301011
+  descricao: GLICOSE
+  valor_declarado: 13,40
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 13,40
+- guia_prestador: 7666129822
+  guia_operadora: 7940507653
+  senha: 47101
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 13/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 86,57
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 86,57
+- guia_prestador: 7666129822
+  guia_operadora: 7940507653
+  senha: 47101
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 13/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 16,82
+  valor_glosa: 6,07
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 10,75
+- guia_prestador: 7666129822
+  guia_operadora: 7940507653
+  senha: 47101
+  beneficiario: LEVI ACKERMAN
+  matricula: TITAN004
+  data_atendimento: 13/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 424,18
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 424,18
+- guia_prestador: 4183654731
+  guia_operadora: 7113106808
+  senha: 12125
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 09/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 27,48
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 27,48
+- guia_prestador: 4183654731
+  guia_operadora: 7113106808
+  senha: 12125
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 09/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 205,10
+  valor_glosa: 48,60
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 156,50
+- guia_prestador: 4183654731
+  guia_operadora: 7113106808
+  senha: 12125
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 09/10/23
+  codigo: 40305023
+  descricao: PROTEINA C REATIVA, QUALITATIVA
+  valor_declarado: 25,27
+  valor_glosa: 24,64
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 0,63
+- guia_prestador: 4183654731
+  guia_operadora: 7113106808
+  senha: 12125
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 09/10/23
+  codigo: 20201046
+  descricao: CARDIOVERSAO ELETRICA DE EMERGENCIA
+  valor_declarado: 351,47
+  valor_glosa: 261,38
+  codigo_glosa: '1001'
+  motivo_glosa: Número da carteira inválido
+  valor_pago: 90,09
+- guia_prestador: 4183654731
+  guia_operadora: 7113106808
+  senha: 12125
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 09/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 17,86
+  valor_glosa: 4,21
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 13,65
+- guia_prestador: 4183654731
+  guia_operadora: 7113106808
+  senha: 12125
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 09/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 49,16
+  valor_glosa: 23,51
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 25,65
+- guia_prestador: 4183654731
+  guia_operadora: 7113106808
+  senha: 12125
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 09/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 18,91
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 18,91
+- guia_prestador: 2979245480
+  guia_operadora: 8399143287
+  senha: 56160
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 06/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 45,67
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 45,67
+- guia_prestador: 2979245480
+  guia_operadora: 8399143287
+  senha: 56160
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 06/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 12,76
+  valor_glosa: 10,96
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 1,80
+- guia_prestador: 2979245480
+  guia_operadora: 8399143287
+  senha: 56160
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 06/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 15,85
+  valor_glosa: 12,65
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 3,20
+- guia_prestador: 2979245480
+  guia_operadora: 8399143287
+  senha: 56160
+  beneficiario: RUBEUS HAGRID
+  matricula: HOG006
+  data_atendimento: 06/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 75,40
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 75,40
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 24,66
+  valor_glosa: 22,35
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 2,31
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 84,15
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 84,15
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 10101012
+  descricao: CONSULTA EM PRONTO SOCORRO
+  valor_declarado: 80,46
+  valor_glosa: 63,67
+  codigo_glosa: '1211'
+  motivo_glosa: Assinatura do médico ou prestador ausente
+  valor_pago: 16,79
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 72,07
+  valor_glosa: 70,45
+  codigo_glosa: '1211'
+  motivo_glosa: Assinatura do médico ou prestador ausente
+  valor_pago: 1,62
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 10,18
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 10,18
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 458,83
+  valor_glosa: 236,18
+  codigo_glosa: '1009'
+  motivo_glosa: Beneficiário com pagamento em aberto
+  valor_pago: 222,65
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 446,16
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 446,16
+- guia_prestador: 4282810353
+  guia_operadora: 8510065121
+  senha: 64053
+  beneficiario: KENPACHI ZARAKI
+  matricula: SOUL007
+  data_atendimento: 05/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 593,24
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 593,24
+- guia_prestador: 1769945233
+  guia_operadora: 6387545832
+  senha: 22624
+  beneficiario: ORIHIME INOUE
+  matricula: SOUL003
+  data_atendimento: 05/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 249,22
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 249,22
+- guia_prestador: 1769945233
+  guia_operadora: 6387545832
+  senha: 22624
+  beneficiario: ORIHIME INOUE
+  matricula: SOUL003
+  data_atendimento: 05/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 61,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 61,19
+- guia_prestador: 1769945233
+  guia_operadora: 6387545832
+  senha: 22624
+  beneficiario: ORIHIME INOUE
+  matricula: SOUL003
+  data_atendimento: 05/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 6,65
+  valor_glosa: 6,28
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 0,37
+- guia_prestador: 1769945233
+  guia_operadora: 6387545832
+  senha: 22624
+  beneficiario: ORIHIME INOUE
+  matricula: SOUL003
+  data_atendimento: 05/10/23
+  codigo: 40301011
+  descricao: GLICOSE
+  valor_declarado: 10,65
+  valor_glosa: 5,68
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 4,97
+- guia_prestador: 9936181631
+  guia_operadora: 5485024047
+  senha: 95182
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 02/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 40,92
+  valor_glosa: 36,78
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 4,14
+- guia_prestador: 9936181631
+  guia_operadora: 5485024047
+  senha: 95182
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 02/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 42,57
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 42,57
+- guia_prestador: 9936181631
+  guia_operadora: 5485024047
+  senha: 95182
+  beneficiario: MIKASA ACKERMAN
+  matricula: TITAN002
+  data_atendimento: 02/10/23
+  codigo: 40311198
+  descricao: URINA TIPO I
+  valor_declarado: 10,83
+  valor_glosa: 2,71
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 8,12
+- guia_prestador: 5182609867
+  guia_operadora: 6044060736
+  senha: 79226
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 02/10/23
+  codigo: 30201012
+  descricao: ELETROCARDIOGRAMA CONVENCIONAL
+  valor_declarado: 41,86
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 41,86
+- guia_prestador: 5182609867
+  guia_operadora: 6044060736
+  senha: 79226
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 02/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 11,49
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 11,49
+- guia_prestador: 5182609867
+  guia_operadora: 6044060736
+  senha: 79226
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 02/10/23
+  codigo: 90010010
+  descricao: AMOXICILINA 500MG (COMPRIMIDO)
+  valor_declarado: 3,81
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 3,81
+- guia_prestador: 5182609867
+  guia_operadora: 6044060736
+  senha: 79226
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 02/10/23
+  codigo: 40311198
+  descricao: URINA TIPO I
+  valor_declarado: 18,99
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 18,99
+- guia_prestador: 8947526020
+  guia_operadora: 5665685329
+  senha: 12052
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 07/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 82,47
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 82,47
+- guia_prestador: 8947526020
+  guia_operadora: 5665685329
+  senha: 12052
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 07/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 9,09
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 9,09
+- guia_prestador: 8947526020
+  guia_operadora: 5665685329
+  senha: 12052
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 07/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 7,87
+  valor_glosa: 4,33
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 3,54
+- guia_prestador: 8947526020
+  guia_operadora: 5665685329
+  senha: 12052
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 07/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 24,60
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 24,60
+- guia_prestador: 8947526020
+  guia_operadora: 5665685329
+  senha: 12052
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 07/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 16,88
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,88
+- guia_prestador: 8947526020
+  guia_operadora: 5665685329
+  senha: 12052
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 07/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 222,76
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 222,76
+- guia_prestador: 8947526020
+  guia_operadora: 5665685329
+  senha: 12052
+  beneficiario: RENJI ABARAI
+  matricula: SOUL005
+  data_atendimento: 07/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 209,61
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 209,61
+- guia_prestador: 9479654136
+  guia_operadora: 5461243650
+  senha: 17038
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 04/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 21,53
+  valor_glosa: 14,64
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 6,89
+- guia_prestador: 9479654136
+  guia_operadora: 5461243650
+  senha: 17038
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 04/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1878,01
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1878,01
+- guia_prestador: 9479654136
+  guia_operadora: 5461243650
+  senha: 17038
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 04/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 535,06
+  valor_glosa: 322,38
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 212,68
+- guia_prestador: 9479654136
+  guia_operadora: 5461243650
+  senha: 17038
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 04/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 435,17
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 435,17
+- guia_prestador: 9479654136
+  guia_operadora: 5461243650
+  senha: 17038
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 04/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 127,38
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 127,38
+- guia_prestador: 9479654136
+  guia_operadora: 5461243650
+  senha: 17038
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 04/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 31,59
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 31,59
+- guia_prestador: 2854772804
+  guia_operadora: 8111270714
+  senha: 99088
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 13/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 3,37
+  valor_glosa: 2,43
+  codigo_glosa: '1426'
+  motivo_glosa: Procedimento/item não coberto pelo rol da ANS
+  valor_pago: 0,94
+- guia_prestador: 2854772804
+  guia_operadora: 8111270714
+  senha: 99088
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 13/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 11,22
+  valor_glosa: 1,52
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 9,70
+- guia_prestador: 2854772804
+  guia_operadora: 8111270714
+  senha: 99088
+  beneficiario: LUKE SKYWALKER
+  matricula: JEDI001
+  data_atendimento: 13/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 22,60
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,60
+- guia_prestador: 8471762590
+  guia_operadora: 7433965438
+  senha: 51507
+  beneficiario: ENDEAVOR
+  matricula: UA010
+  data_atendimento: 12/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 528,40
+  valor_glosa: 384,32
+  codigo_glosa: '1204'
+  motivo_glosa: Acomodação não contratada
+  valor_pago: 144,08
+- guia_prestador: 8471762590
+  guia_operadora: 7433965438
+  senha: 51507
+  beneficiario: ENDEAVOR
+  matricula: UA010
+  data_atendimento: 12/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 14,35
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 14,35
+- guia_prestador: 8471762590
+  guia_operadora: 7433965438
+  senha: 51507
+  beneficiario: ENDEAVOR
+  matricula: UA010
+  data_atendimento: 12/10/23
+  codigo: 40302489
+  descricao: TRIGLICERIDEOS
+  valor_declarado: 13,40
+  valor_glosa: 6,99
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 6,41
+- guia_prestador: 2752536389
+  guia_operadora: 7381646593
+  senha: 13442
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 03/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 62,41
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 62,41
+- guia_prestador: 2752536389
+  guia_operadora: 7381646593
+  senha: 13442
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 03/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 193,50
+  valor_glosa: 46,35
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 147,15
+- guia_prestador: 2752536389
+  guia_operadora: 7381646593
+  senha: 13442
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 03/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 6,62
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 6,62
+- guia_prestador: 2752536389
+  guia_operadora: 7381646593
+  senha: 13442
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 03/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 21,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,19
+- guia_prestador: 2752536389
+  guia_operadora: 7381646593
+  senha: 13442
+  beneficiario: CHEWBACCA
+  matricula: JEDI006
+  data_atendimento: 03/10/23
+  codigo: 10101012
+  descricao: CONSULTA EM PRONTO SOCORRO
+  valor_declarado: 149,49
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 149,49
+- guia_prestador: 2635231601
+  guia_operadora: 7173071915
+  senha: 28198
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 09/10/23
+  codigo: 40301011
+  descricao: GLICOSE
+  valor_declarado: 12,83
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 12,83
+- guia_prestador: 2635231601
+  guia_operadora: 7173071915
+  senha: 28198
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 09/10/23
+  codigo: 20201046
+  descricao: CARDIOVERSAO ELETRICA DE EMERGENCIA
+  valor_declarado: 372,22
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 372,22
+- guia_prestador: 2635231601
+  guia_operadora: 7173071915
+  senha: 28198
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 09/10/23
+  codigo: 30906060
+  descricao: RESSONANCIA MAGNETICA DE CRANIO
+  valor_declarado: 1166,53
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1166,53
+- guia_prestador: 2635231601
+  guia_operadora: 7173071915
+  senha: 28198
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 09/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 20,81
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 20,81
+- guia_prestador: 2635231601
+  guia_operadora: 7173071915
+  senha: 28198
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 09/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 13,95
+  valor_glosa: 9,18
+  codigo_glosa: '1419'
+  motivo_glosa: Procedimento não autorizado
+  valor_pago: 4,77
+- guia_prestador: 2966500767
+  guia_operadora: 6664260498
+  senha: 27758
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 10/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 30,49
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 30,49
+- guia_prestador: 2966500767
+  guia_operadora: 6664260498
+  senha: 27758
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 10/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 11,95
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 11,95
+- guia_prestador: 2966500767
+  guia_operadora: 6664260498
+  senha: 27758
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 10/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 400,42
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 400,42
+- guia_prestador: 6585327015
+  guia_operadora: 7632983517
+  senha: 89064
+  beneficiario: ALL MIGHT
+  matricula: UA008
+  data_atendimento: 07/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 14,91
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 14,91
+- guia_prestador: 6585327015
+  guia_operadora: 7632983517
+  senha: 89064
+  beneficiario: ALL MIGHT
+  matricula: UA008
+  data_atendimento: 07/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 22,27
+  valor_glosa: 15,07
+  codigo_glosa: '1009'
+  motivo_glosa: Beneficiário com pagamento em aberto
+  valor_pago: 7,20
+- guia_prestador: 6585327015
+  guia_operadora: 7632983517
+  senha: 89064
+  beneficiario: ALL MIGHT
+  matricula: UA008
+  data_atendimento: 07/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 26,28
+  valor_glosa: 18,21
+  codigo_glosa: '1002'
+  motivo_glosa: A guia não pertence ao sistema
+  valor_pago: 8,07
+- guia_prestador: 6585327015
+  guia_operadora: 7632983517
+  senha: 89064
+  beneficiario: ALL MIGHT
+  matricula: UA008
+  data_atendimento: 07/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 22,25
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,25
+- guia_prestador: 6585327015
+  guia_operadora: 7632983517
+  senha: 89064
+  beneficiario: ALL MIGHT
+  matricula: UA008
+  data_atendimento: 07/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 77,51
+  valor_glosa: 68,68
+  codigo_glosa: '1204'
+  motivo_glosa: Acomodação não contratada
+  valor_pago: 8,83
+- guia_prestador: 6585327015
+  guia_operadora: 7632983517
+  senha: 89064
+  beneficiario: ALL MIGHT
+  matricula: UA008
+  data_atendimento: 07/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 13,48
+  valor_glosa: 3,67
+  codigo_glosa: '1002'
+  motivo_glosa: A guia não pertence ao sistema
+  valor_pago: 9,81
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 40311198
+  descricao: URINA TIPO I
+  valor_declarado: 14,99
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 14,99
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 45,33
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 45,33
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 40302489
+  descricao: TRIGLICERIDEOS
+  valor_declarado: 15,87
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,87
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 19,88
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,88
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 100,07
+  valor_glosa: 43,00
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 57,07
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 10,10
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 10,10
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 16,48
+  valor_glosa: 15,31
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 1,17
+- guia_prestador: 3343459102
+  guia_operadora: 8591879104
+  senha: 99353
+  beneficiario: KOHAKU
+  matricula: STONE006
+  data_atendimento: 01/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 49,77
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 49,77
+- guia_prestador: 7795686304
+  guia_operadora: 5343411869
+  senha: 80040
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 14/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 137,23
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 137,23
+- guia_prestador: 7795686304
+  guia_operadora: 5343411869
+  senha: 80040
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 14/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 34,94
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,94
+- guia_prestador: 7795686304
+  guia_operadora: 5343411869
+  senha: 80040
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 14/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 61,64
+  valor_glosa: 37,12
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 24,52
+- guia_prestador: 7795686304
+  guia_operadora: 5343411869
+  senha: 80040
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 14/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 27,25
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 27,25
+- guia_prestador: 7795686304
+  guia_operadora: 5343411869
+  senha: 80040
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 14/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 167,59
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 167,59
+- guia_prestador: 7795686304
+  guia_operadora: 5343411869
+  senha: 80040
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 14/10/23
+  codigo: 90010050
+  descricao: CEFTRIAXONA 1G INJ
+  valor_declarado: 47,58
+  valor_glosa: 31,18
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 16,40
+- guia_prestador: 7795686304
+  guia_operadora: 5343411869
+  senha: 80040
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 14/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 279,35
+  valor_glosa: 45,63
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 233,72
+- guia_prestador: 2848792488
+  guia_operadora: 5417124022
+  senha: 11382
+  beneficiario: NOLAN GRAYSON
+  matricula: VILTRUM002
+  data_atendimento: 04/10/23
+  codigo: 30201012
+  descricao: ELETROCARDIOGRAMA CONVENCIONAL
+  valor_declarado: 54,96
+  valor_glosa: 16,18
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 38,78
+- guia_prestador: 2848792488
+  guia_operadora: 5417124022
+  senha: 11382
+  beneficiario: NOLAN GRAYSON
+  matricula: VILTRUM002
+  data_atendimento: 04/10/23
+  codigo: 70000010
+  descricao: KIT DE ACESSO VENOSO
+  valor_declarado: 36,58
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 36,58
+- guia_prestador: 2848792488
+  guia_operadora: 5417124022
+  senha: 11382
+  beneficiario: NOLAN GRAYSON
+  matricula: VILTRUM002
+  data_atendimento: 04/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 70,39
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 70,39
+- guia_prestador: 2848792488
+  guia_operadora: 5417124022
+  senha: 11382
+  beneficiario: NOLAN GRAYSON
+  matricula: VILTRUM002
+  data_atendimento: 04/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 98,33
+  valor_glosa: 56,40
+  codigo_glosa: '1211'
+  motivo_glosa: Assinatura do médico ou prestador ausente
+  valor_pago: 41,93
+- guia_prestador: 2848792488
+  guia_operadora: 5417124022
+  senha: 11382
+  beneficiario: NOLAN GRAYSON
+  matricula: VILTRUM002
+  data_atendimento: 04/10/23
+  codigo: 30201012
+  descricao: ELETROCARDIOGRAMA CONVENCIONAL
+  valor_declarado: 46,03
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 46,03
+- guia_prestador: 3073486033
+  guia_operadora: 7397199956
+  senha: 48722
+  beneficiario: URYU ISHIDA
+  matricula: SOUL004
+  data_atendimento: 14/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 212,38
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 212,38
+- guia_prestador: 3073486033
+  guia_operadora: 7397199956
+  senha: 48722
+  beneficiario: URYU ISHIDA
+  matricula: SOUL004
+  data_atendimento: 14/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 22,47
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,47
+- guia_prestador: 3073486033
+  guia_operadora: 7397199956
+  senha: 48722
+  beneficiario: URYU ISHIDA
+  matricula: SOUL004
+  data_atendimento: 14/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 50,34
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 50,34
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 61,50
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 61,50
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 19,81
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,81
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 10,93
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 10,93
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 18,49
+  valor_glosa: 15,04
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 3,45
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 182,03
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 182,03
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 17,52
+  valor_glosa: 4,25
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 13,27
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 881,31
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 881,31
+- guia_prestador: 6790905673
+  guia_operadora: 7896923497
+  senha: 22795
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 15/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 431,15
+  valor_glosa: 165,41
+  codigo_glosa: '1419'
+  motivo_glosa: Procedimento não autorizado
+  valor_pago: 265,74
+- guia_prestador: 3704799972
+  guia_operadora: 7719748617
+  senha: 34430
+  beneficiario: DARTH VADER
+  matricula: SITH001
+  data_atendimento: 14/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 130,87
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 130,87
+- guia_prestador: 3704799972
+  guia_operadora: 7719748617
+  senha: 34430
+  beneficiario: DARTH VADER
+  matricula: SITH001
+  data_atendimento: 14/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 525,70
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 525,70
+- guia_prestador: 3704799972
+  guia_operadora: 7719748617
+  senha: 34430
+  beneficiario: DARTH VADER
+  matricula: SITH001
+  data_atendimento: 14/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 352,18
+  valor_glosa: 111,52
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 240,66
+- guia_prestador: 3704799972
+  guia_operadora: 7719748617
+  senha: 34430
+  beneficiario: DARTH VADER
+  matricula: SITH001
+  data_atendimento: 14/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 107,51
+  valor_glosa: 84,84
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 22,67
+- guia_prestador: 3704799972
+  guia_operadora: 7719748617
+  senha: 34430
+  beneficiario: DARTH VADER
+  matricula: SITH001
+  data_atendimento: 14/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 27,54
+  valor_glosa: 13,97
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 13,57
+- guia_prestador: 3704799972
+  guia_operadora: 7719748617
+  senha: 34430
+  beneficiario: DARTH VADER
+  matricula: SITH001
+  data_atendimento: 14/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 111,04
+  valor_glosa: 14,57
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 96,47
+- guia_prestador: 6866036409
+  guia_operadora: 7223115272
+  senha: 35830
+  beneficiario: TSUKASA SHISHIO
+  matricula: STONE004
+  data_atendimento: 15/10/23
+  codigo: 40301011
+  descricao: GLICOSE
+  valor_declarado: 11,39
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 11,39
+- guia_prestador: 6866036409
+  guia_operadora: 7223115272
+  senha: 35830
+  beneficiario: TSUKASA SHISHIO
+  matricula: STONE004
+  data_atendimento: 15/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 21,94
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,94
+- guia_prestador: 6866036409
+  guia_operadora: 7223115272
+  senha: 35830
+  beneficiario: TSUKASA SHISHIO
+  matricula: STONE004
+  data_atendimento: 15/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 68,34
+  valor_glosa: 25,31
+  codigo_glosa: '1211'
+  motivo_glosa: Assinatura do médico ou prestador ausente
+  valor_pago: 43,03
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 98,54
+  valor_glosa: 37,78
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 60,76
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 14,13
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 14,13
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 425,47
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 425,47
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 341,36
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 341,36
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 59,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 59,19
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 187,15
+  valor_glosa: 96,26
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 90,89
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 15,63
+  valor_glosa: 6,73
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 8,90
+- guia_prestador: 6789292252
+  guia_operadora: 8531912488
+  senha: 70012
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 06/10/23
+  codigo: 30906060
+  descricao: RESSONANCIA MAGNETICA DE CRANIO
+  valor_declarado: 1016,06
+  valor_glosa: 335,93
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 680,13
+- guia_prestador: 3383331379
+  guia_operadora: 8153648273
+  senha: 74178
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 10/10/23
+  codigo: 30906060
+  descricao: RESSONANCIA MAGNETICA DE CRANIO
+  valor_declarado: 1171,11
+  valor_glosa: 538,50
+  codigo_glosa: '1204'
+  motivo_glosa: Acomodação não contratada
+  valor_pago: 632,61
+- guia_prestador: 3383331379
+  guia_operadora: 8153648273
+  senha: 74178
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 10/10/23
+  codigo: 90000020
+  descricao: SORO FISIOLOGICO 0.9% 500ML SIST FECHADO
+  valor_declarado: 16,24
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,24
+- guia_prestador: 3383331379
+  guia_operadora: 8153648273
+  senha: 74178
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 10/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 358,54
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 358,54
+- guia_prestador: 3383331379
+  guia_operadora: 8153648273
+  senha: 74178
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 10/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 17,68
+  valor_glosa: 14,91
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 2,77
+- guia_prestador: 7406913885
+  guia_operadora: 9704552789
+  senha: 68176
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 16/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1267,25
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1267,25
+- guia_prestador: 7406913885
+  guia_operadora: 9704552789
+  senha: 68176
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 16/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 180,64
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 180,64
+- guia_prestador: 7406913885
+  guia_operadora: 9704552789
+  senha: 68176
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 16/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 2,50
+  valor_glosa: 2,07
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 0,43
+- guia_prestador: 7406913885
+  guia_operadora: 9704552789
+  senha: 68176
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 16/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 13,49
+  valor_glosa: 2,03
+  codigo_glosa: '1419'
+  motivo_glosa: Procedimento não autorizado
+  valor_pago: 11,46
+- guia_prestador: 5785481124
+  guia_operadora: 9812684913
+  senha: 81186
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 12/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 9,76
+  valor_glosa: 8,15
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 1,61
+- guia_prestador: 5785481124
+  guia_operadora: 9812684913
+  senha: 81186
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 12/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 144,66
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 144,66
+- guia_prestador: 5785481124
+  guia_operadora: 9812684913
+  senha: 81186
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 12/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 59,97
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 59,97
+- guia_prestador: 5785481124
+  guia_operadora: 9812684913
+  senha: 81186
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 12/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 63,49
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 63,49
+- guia_prestador: 5785481124
+  guia_operadora: 9812684913
+  senha: 81186
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 12/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 8,49
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 8,49
+- guia_prestador: 5785481124
+  guia_operadora: 9812684913
+  senha: 81186
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 12/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 545,02
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 545,02
+- guia_prestador: 5785481124
+  guia_operadora: 9812684913
+  senha: 81186
+  beneficiario: SIRIUS BLACK
+  matricula: HOG007
+  data_atendimento: 12/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 6,95
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 6,95
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 479,06
+  valor_glosa: 274,00
+  codigo_glosa: '1419'
+  motivo_glosa: Procedimento não autorizado
+  valor_pago: 205,06
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 40305023
+  descricao: PROTEINA C REATIVA, QUALITATIVA
+  valor_declarado: 17,53
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 17,53
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 593,70
+  valor_glosa: 86,36
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 507,34
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 4,46
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 4,46
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 8,15
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 8,15
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 34,05
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,05
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 186,87
+  valor_glosa: 91,33
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 95,54
+- guia_prestador: 2017675569
+  guia_operadora: 5642441295
+  senha: 87060
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 12/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 77,00
+  valor_glosa: 31,00
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 46,00
+- guia_prestador: 3817053070
+  guia_operadora: 9506756838
+  senha: 27392
+  beneficiario: OCHACO URARAKA
+  matricula: UA003
+  data_atendimento: 08/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 39,58
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 39,58
+- guia_prestador: 3817053070
+  guia_operadora: 9506756838
+  senha: 27392
+  beneficiario: OCHACO URARAKA
+  matricula: UA003
+  data_atendimento: 08/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 8,20
+  valor_glosa: 1,45
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 6,75
+- guia_prestador: 3817053070
+  guia_operadora: 9506756838
+  senha: 27392
+  beneficiario: OCHACO URARAKA
+  matricula: UA003
+  data_atendimento: 08/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 2,81
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 2,81
+- guia_prestador: 3817053070
+  guia_operadora: 9506756838
+  senha: 27392
+  beneficiario: OCHACO URARAKA
+  matricula: UA003
+  data_atendimento: 08/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 494,98
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 494,98
+- guia_prestador: 9914274512
+  guia_operadora: 5850869632
+  senha: 22202
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 13/10/23
+  codigo: 70000010
+  descricao: KIT DE ACESSO VENOSO
+  valor_declarado: 46,18
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 46,18
+- guia_prestador: 9914274512
+  guia_operadora: 5850869632
+  senha: 22202
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 13/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 56,52
+  valor_glosa: 34,71
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 21,81
+- guia_prestador: 9914274512
+  guia_operadora: 5850869632
+  senha: 22202
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 13/10/23
+  codigo: 90010010
+  descricao: AMOXICILINA 500MG (COMPRIMIDO)
+  valor_declarado: 3,93
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 3,93
+- guia_prestador: 9914274512
+  guia_operadora: 5850869632
+  senha: 22202
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 13/10/23
+  codigo: 40302489
+  descricao: TRIGLICERIDEOS
+  valor_declarado: 22,16
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,16
+- guia_prestador: 9914274512
+  guia_operadora: 5850869632
+  senha: 22202
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 13/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 21,06
+  valor_glosa: 3,46
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 17,60
+- guia_prestador: 9914274512
+  guia_operadora: 5850869632
+  senha: 22202
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 13/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 230,51
+  valor_glosa: 214,77
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 15,74
+- guia_prestador: 9914274512
+  guia_operadora: 5850869632
+  senha: 22202
+  beneficiario: HERMIONE GRANGER
+  matricula: HOG002
+  data_atendimento: 13/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 25,91
+  valor_glosa: 12,24
+  codigo_glosa: '1426'
+  motivo_glosa: Procedimento/item não coberto pelo rol da ANS
+  valor_pago: 13,67
+- guia_prestador: 6204862411
+  guia_operadora: 7814963909
+  senha: 45197
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 11/10/23
+  codigo: 40306135
+  descricao: TGP (ALANINA AMINOTRANSFERASE)
+  valor_declarado: 20,24
+  valor_glosa: 7,87
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 12,37
+- guia_prestador: 6204862411
+  guia_operadora: 7814963909
+  senha: 45197
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 11/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 126,29
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 126,29
+- guia_prestador: 6204862411
+  guia_operadora: 7814963909
+  senha: 45197
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 11/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 132,94
+  valor_glosa: 55,14
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 77,80
+- guia_prestador: 6204862411
+  guia_operadora: 7814963909
+  senha: 45197
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 11/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 22,19
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,19
+- guia_prestador: 6204862411
+  guia_operadora: 7814963909
+  senha: 45197
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 11/10/23
+  codigo: 40306135
+  descricao: TGP (ALANINA AMINOTRANSFERASE)
+  valor_declarado: 16,89
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,89
+- guia_prestador: 5973501339
+  guia_operadora: 6002830207
+  senha: 69836
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 01/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 218,50
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 218,50
+- guia_prestador: 5973501339
+  guia_operadora: 6002830207
+  senha: 69836
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 01/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 95,82
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 95,82
+- guia_prestador: 5973501339
+  guia_operadora: 6002830207
+  senha: 69836
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 01/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 52,52
+  valor_glosa: 39,69
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 12,83
+- guia_prestador: 5973501339
+  guia_operadora: 6002830207
+  senha: 69836
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 01/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 617,33
+  valor_glosa: 92,03
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 525,30
+- guia_prestador: 5973501339
+  guia_operadora: 6002830207
+  senha: 69836
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 01/10/23
+  codigo: 20201046
+  descricao: CARDIOVERSAO ELETRICA DE EMERGENCIA
+  valor_declarado: 480,76
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 480,76
+- guia_prestador: 5973501339
+  guia_operadora: 6002830207
+  senha: 69836
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 01/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 19,14
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,14
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 403,07
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 403,07
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 336,18
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 336,18
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 30201012
+  descricao: ELETROCARDIOGRAMA CONVENCIONAL
+  valor_declarado: 74,41
+  valor_glosa: 37,58
+  codigo_glosa: '1001'
+  motivo_glosa: Número da carteira inválido
+  valor_pago: 36,83
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1979,85
+  valor_glosa: 1516,59
+  codigo_glosa: '1204'
+  motivo_glosa: Acomodação não contratada
+  valor_pago: 463,26
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 157,32
+  valor_glosa: 89,82
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 67,50
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 59,16
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 59,16
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 40302489
+  descricao: TRIGLICERIDEOS
+  valor_declarado: 13,43
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 13,43
+- guia_prestador: 7981917208
+  guia_operadora: 5058984033
+  senha: 40689
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 14/10/23
+  codigo: 10101012
+  descricao: CONSULTA EM PRONTO SOCORRO
+  valor_declarado: 136,42
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 136,42
+- guia_prestador: 6640801643
+  guia_operadora: 7870157362
+  senha: 49223
+  beneficiario: SHOTO TODOROKI
+  matricula: UA004
+  data_atendimento: 05/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 3,04
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 3,04
+- guia_prestador: 6640801643
+  guia_operadora: 7870157362
+  senha: 49223
+  beneficiario: SHOTO TODOROKI
+  matricula: UA004
+  data_atendimento: 05/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 3,95
+  valor_glosa: 3,62
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 0,33
+- guia_prestador: 6640801643
+  guia_operadora: 7870157362
+  senha: 49223
+  beneficiario: SHOTO TODOROKI
+  matricula: UA004
+  data_atendimento: 05/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 62,00
+  valor_glosa: 15,70
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 46,30
+- guia_prestador: 6640801643
+  guia_operadora: 7870157362
+  senha: 49223
+  beneficiario: SHOTO TODOROKI
+  matricula: UA004
+  data_atendimento: 05/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 12,22
+  valor_glosa: 8,88
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 3,34
+- guia_prestador: 6640801643
+  guia_operadora: 7870157362
+  senha: 49223
+  beneficiario: SHOTO TODOROKI
+  matricula: UA004
+  data_atendimento: 05/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 71,40
+  valor_glosa: 49,21
+  codigo_glosa: '1001'
+  motivo_glosa: Número da carteira inválido
+  valor_pago: 22,19
+- guia_prestador: 6640801643
+  guia_operadora: 7870157362
+  senha: 49223
+  beneficiario: SHOTO TODOROKI
+  matricula: UA004
+  data_atendimento: 05/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 54,54
+  valor_glosa: 37,87
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 16,67
+- guia_prestador: 1933058809
+  guia_operadora: 7835109520
+  senha: 23168
+  beneficiario: YODA
+  matricula: JEDI004
+  data_atendimento: 05/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 137,74
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 137,74
+- guia_prestador: 1933058809
+  guia_operadora: 7835109520
+  senha: 23168
+  beneficiario: YODA
+  matricula: JEDI004
+  data_atendimento: 05/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 28,50
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 28,50
+- guia_prestador: 1933058809
+  guia_operadora: 7835109520
+  senha: 23168
+  beneficiario: YODA
+  matricula: JEDI004
+  data_atendimento: 05/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 23,31
+  valor_glosa: 20,53
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 2,78
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 26,78
+  valor_glosa: 26,29
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 0,49
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 849,93
+  valor_glosa: 748,02
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 101,91
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 3,06
+  valor_glosa: 0,85
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 2,21
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 22,22
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,22
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 21,33
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,33
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 34,67
+  valor_glosa: 32,24
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 2,43
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 31,78
+  valor_glosa: 14,43
+  codigo_glosa: '1203'
+  motivo_glosa: Acomodação não autorizada
+  valor_pago: 17,35
+- guia_prestador: 9056616444
+  guia_operadora: 9722761981
+  senha: 36928
+  beneficiario: IZUKU MIDORIYA
+  matricula: UA001
+  data_atendimento: 07/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 568,35
+  valor_glosa: 406,87
+  codigo_glosa: '1426'
+  motivo_glosa: Procedimento/item não coberto pelo rol da ANS
+  valor_pago: 161,48
+- guia_prestador: 8570850267
+  guia_operadora: 7152858629
+  senha: 19567
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1651,78
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 1651,78
+- guia_prestador: 8570850267
+  guia_operadora: 7152858629
+  senha: 19567
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 40301011
+  descricao: GLICOSE
+  valor_declarado: 9,15
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 9,15
+- guia_prestador: 8570850267
+  guia_operadora: 7152858629
+  senha: 19567
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 205,27
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 205,27
+- guia_prestador: 8570850267
+  guia_operadora: 7152858629
+  senha: 19567
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 16,24
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 16,24
+- guia_prestador: 8570850267
+  guia_operadora: 7152858629
+  senha: 19567
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 5,68
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 5,68
+- guia_prestador: 8570850267
+  guia_operadora: 7152858629
+  senha: 19567
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 74,64
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 74,64
+- guia_prestador: 8570850267
+  guia_operadora: 7152858629
+  senha: 19567
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 510,99
+  valor_glosa: 306,31
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 204,68
+- guia_prestador: 9929329605
+  guia_operadora: 7821500440
+  senha: 36633
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 05/10/23
+  codigo: 40301062
+  descricao: CREATININA
+  valor_declarado: 19,44
+  valor_glosa: 7,92
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 11,52
+- guia_prestador: 9929329605
+  guia_operadora: 7821500440
+  senha: 36633
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 05/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 128,64
+  valor_glosa: 57,11
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 71,53
+- guia_prestador: 9929329605
+  guia_operadora: 7821500440
+  senha: 36633
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 05/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 2,73
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 2,73
+- guia_prestador: 9929329605
+  guia_operadora: 7821500440
+  senha: 36633
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 05/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 866,08
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 866,08
+- guia_prestador: 9929329605
+  guia_operadora: 7821500440
+  senha: 36633
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 05/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 446,39
+  valor_glosa: 141,20
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 305,19
+- guia_prestador: 9929329605
+  guia_operadora: 7821500440
+  senha: 36633
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 05/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 15,35
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,35
+- guia_prestador: 9929329605
+  guia_operadora: 7821500440
+  senha: 36633
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 05/10/23
+  codigo: 40305023
+  descricao: PROTEINA C REATIVA, QUALITATIVA
+  valor_declarado: 15,83
+  valor_glosa: 10,21
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 5,62
+- guia_prestador: 1513003815
+  guia_operadora: 9890148959
+  senha: 27984
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 15,37
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,37
+- guia_prestador: 1513003815
+  guia_operadora: 9890148959
+  senha: 27984
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 40306135
+  descricao: TGP (ALANINA AMINOTRANSFERASE)
+  valor_declarado: 15,58
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,58
+- guia_prestador: 1513003815
+  guia_operadora: 9890148959
+  senha: 27984
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 79,99
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 79,99
+- guia_prestador: 1513003815
+  guia_operadora: 9890148959
+  senha: 27984
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 01/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 10,86
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 10,86
+- guia_prestador: 5421051452
+  guia_operadora: 8906542112
+  senha: 66272
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 09/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 1763,71
+  valor_glosa: 1295,66
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 468,05
+- guia_prestador: 5421051452
+  guia_operadora: 8906542112
+  senha: 66272
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 09/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 34,71
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,71
+- guia_prestador: 5421051452
+  guia_operadora: 8906542112
+  senha: 66272
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 09/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 153,17
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 153,17
+- guia_prestador: 5421051452
+  guia_operadora: 8906542112
+  senha: 66272
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 09/10/23
+  codigo: 20104040
+  descricao: DIARIA DE UTI ADULTO (GERAL)
+  valor_declarado: 974,94
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 974,94
+- guia_prestador: 5421051452
+  guia_operadora: 8906542112
+  senha: 66272
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 09/10/23
+  codigo: 40302489
+  descricao: TRIGLICERIDEOS
+  valor_declarado: 21,18
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,18
+- guia_prestador: 5421051452
+  guia_operadora: 8906542112
+  senha: 66272
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 09/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 20,84
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 20,84
+- guia_prestador: 5421051452
+  guia_operadora: 8906542112
+  senha: 66272
+  beneficiario: TSUYU ASUI
+  matricula: UA006
+  data_atendimento: 09/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 14,97
+  valor_glosa: 2,41
+  codigo_glosa: '2011'
+  motivo_glosa: Valor do item acima do acordado em pacote
+  valor_pago: 12,56
+- guia_prestador: 4706249669
+  guia_operadora: 5508469555
+  senha: 42053
+  beneficiario: ICHIGO KUROSAKI
+  matricula: SOUL001
+  data_atendimento: 02/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 20,71
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 20,71
+- guia_prestador: 4706249669
+  guia_operadora: 5508469555
+  senha: 42053
+  beneficiario: ICHIGO KUROSAKI
+  matricula: SOUL001
+  data_atendimento: 02/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 31,39
+  valor_glosa: 27,99
+  codigo_glosa: '1001'
+  motivo_glosa: Número da carteira inválido
+  valor_pago: 3,40
+- guia_prestador: 4706249669
+  guia_operadora: 5508469555
+  senha: 42053
+  beneficiario: ICHIGO KUROSAKI
+  matricula: SOUL001
+  data_atendimento: 02/10/23
+  codigo: 30906060
+  descricao: RESSONANCIA MAGNETICA DE CRANIO
+  valor_declarado: 734,71
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 734,71
+- guia_prestador: 4706249669
+  guia_operadora: 5508469555
+  senha: 42053
+  beneficiario: ICHIGO KUROSAKI
+  matricula: SOUL001
+  data_atendimento: 02/10/23
+  codigo: 90025010
+  descricao: TRAMADOL 50MG INJ
+  valor_declarado: 22,45
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 22,45
+- guia_prestador: 4706249669
+  guia_operadora: 5508469555
+  senha: 42053
+  beneficiario: ICHIGO KUROSAKI
+  matricula: SOUL001
+  data_atendimento: 02/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 237,38
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 237,38
+- guia_prestador: 4706249669
+  guia_operadora: 5508469555
+  senha: 42053
+  beneficiario: ICHIGO KUROSAKI
+  matricula: SOUL001
+  data_atendimento: 02/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 21,40
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 21,40
+- guia_prestador: 7749695577
+  guia_operadora: 6175945569
+  senha: 25650
+  beneficiario: SOSUKE AIZEN
+  matricula: SOUL010
+  data_atendimento: 02/10/23
+  codigo: 30201012
+  descricao: ELETROCARDIOGRAMA CONVENCIONAL
+  valor_declarado: 75,08
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 75,08
+- guia_prestador: 7749695577
+  guia_operadora: 6175945569
+  senha: 25650
+  beneficiario: SOSUKE AIZEN
+  matricula: SOUL010
+  data_atendimento: 02/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 84,64
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 84,64
+- guia_prestador: 7749695577
+  guia_operadora: 6175945569
+  senha: 25650
+  beneficiario: SOSUKE AIZEN
+  matricula: SOUL010
+  data_atendimento: 02/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 26,60
+  valor_glosa: 7,08
+  codigo_glosa: '2302'
+  motivo_glosa: Taxa ou aluguel não autorizado
+  valor_pago: 19,52
+- guia_prestador: 7749695577
+  guia_operadora: 6175945569
+  senha: 25650
+  beneficiario: SOSUKE AIZEN
+  matricula: SOUL010
+  data_atendimento: 02/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 32,77
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 32,77
+- guia_prestador: 7670476743
+  guia_operadora: 7630074869
+  senha: 11044
+  beneficiario: KATSUKI BAKUGO
+  matricula: UA002
+  data_atendimento: 12/10/23
+  codigo: 40302020
+  descricao: COLESTEROL TOTAL
+  valor_declarado: 15,52
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 15,52
+- guia_prestador: 7670476743
+  guia_operadora: 7630074869
+  senha: 11044
+  beneficiario: KATSUKI BAKUGO
+  matricula: UA002
+  data_atendimento: 12/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 7,86
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 7,86
+- guia_prestador: 7670476743
+  guia_operadora: 7630074869
+  senha: 11044
+  beneficiario: KATSUKI BAKUGO
+  matricula: UA002
+  data_atendimento: 12/10/23
+  codigo: 70000010
+  descricao: KIT DE ACESSO VENOSO
+  valor_declarado: 49,94
+  valor_glosa: 6,17
+  codigo_glosa: '1004'
+  motivo_glosa: Senha da guia inválida ou vencida
+  valor_pago: 43,77
+- guia_prestador: 7670476743
+  guia_operadora: 7630074869
+  senha: 11044
+  beneficiario: KATSUKI BAKUGO
+  matricula: UA002
+  data_atendimento: 12/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 30,52
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 30,52
+- guia_prestador: 1646677686
+  guia_operadora: 7597217228
+  senha: 63744
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 01/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 60,05
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 60,05
+- guia_prestador: 1646677686
+  guia_operadora: 7597217228
+  senha: 63744
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 01/10/23
+  codigo: 41001079
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE TORAX
+  valor_declarado: 703,57
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 703,57
+- guia_prestador: 1646677686
+  guia_operadora: 7597217228
+  senha: 63744
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 01/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 76,34
+  valor_glosa: 66,18
+  codigo_glosa: '1803'
+  motivo_glosa: Procedimento incompatível com o sexo
+  valor_pago: 10,16
+- guia_prestador: 1646677686
+  guia_operadora: 7597217228
+  senha: 63744
+  beneficiario: ERWIN SMITH
+  matricula: TITAN005
+  data_atendimento: 01/10/23
+  codigo: 10101012
+  descricao: CONSULTA EM PRONTO SOCORRO
+  valor_declarado: 131,67
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 131,67
+- guia_prestador: 1446457642
+  guia_operadora: 9359453026
+  senha: 79443
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 08/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 23,66
+  valor_glosa: 7,18
+  codigo_glosa: '1707'
+  motivo_glosa: Paciente não identificado
+  valor_pago: 16,48
+- guia_prestador: 1446457642
+  guia_operadora: 9359453026
+  senha: 79443
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 08/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 22,80
+  valor_glosa: 10,76
+  codigo_glosa: '5001'
+  motivo_glosa: Beneficiário suspenso
+  valor_pago: 12,04
+- guia_prestador: 1446457642
+  guia_operadora: 9359453026
+  senha: 79443
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 08/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 12,01
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 12,01
+- guia_prestador: 1446457642
+  guia_operadora: 9359453026
+  senha: 79443
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 08/10/23
+  codigo: 60000002
+  descricao: TAXA DE MATERIAIS DESCARTAVEIS PEQUENO PORTE
+  valor_declarado: 34,90
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,90
+- guia_prestador: 1446457642
+  guia_operadora: 9359453026
+  senha: 79443
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 08/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 592,37
+  valor_glosa: 553,51
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 38,86
+- guia_prestador: 1446457642
+  guia_operadora: 9359453026
+  senha: 79443
+  beneficiario: FUBUKI
+  matricula: HERO006
+  data_atendimento: 08/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 17,12
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 17,12
+- guia_prestador: 3170795726
+  guia_operadora: 6059928520
+  senha: 93521
+  beneficiario: OCHACO URARAKA
+  matricula: UA003
+  data_atendimento: 13/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 115,68
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 115,68
+- guia_prestador: 3170795726
+  guia_operadora: 6059928520
+  senha: 93521
+  beneficiario: OCHACO URARAKA
+  matricula: UA003
+  data_atendimento: 13/10/23
+  codigo: 20103478
+  descricao: NEBULIZACAO (POR SESSAO)
+  valor_declarado: 19,38
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,38
+- guia_prestador: 3170795726
+  guia_operadora: 6059928520
+  senha: 93521
+  beneficiario: OCHACO URARAKA
+  matricula: UA003
+  data_atendimento: 13/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 832,91
+  valor_glosa: 634,51
+  codigo_glosa: '1612'
+  motivo_glosa: Serviço profissional hospitalar não compatível
+  valor_pago: 198,40
+- guia_prestador: 8453283834
+  guia_operadora: 9460374965
+  senha: 51688
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 15/10/23
+  codigo: 40304361
+  descricao: HEMOGRAMA COMPLETO
+  valor_declarado: 17,11
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 17,11
+- guia_prestador: 8453283834
+  guia_operadora: 9460374965
+  senha: 51688
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 15/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 22,34
+  valor_glosa: 11,42
+  codigo_glosa: '1002'
+  motivo_glosa: A guia não pertence ao sistema
+  valor_pago: 10,92
+- guia_prestador: 8453283834
+  guia_operadora: 9460374965
+  senha: 51688
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 15/10/23
+  codigo: 20103630
+  descricao: CURATIVO DE EXTREMIDADES DE ORIGEM VASCULAR
+  valor_declarado: 55,70
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 55,70
+- guia_prestador: 8453283834
+  guia_operadora: 9460374965
+  senha: 51688
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 15/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 2,36
+  valor_glosa: 1,38
+  codigo_glosa: '1002'
+  motivo_glosa: A guia não pertence ao sistema
+  valor_pago: 0,98
+- guia_prestador: 8453283834
+  guia_operadora: 9460374965
+  senha: 51688
+  beneficiario: HAN SOLO
+  matricula: JEDI003
+  data_atendimento: 15/10/23
+  codigo: 20104148
+  descricao: DIARIA DE ENFERMARIA
+  valor_declarado: 221,66
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 221,66
+- guia_prestador: 7235936374
+  guia_operadora: 5211722336
+  senha: 70731
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 09/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 511,41
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 511,41
+- guia_prestador: 7235936374
+  guia_operadora: 5211722336
+  senha: 70731
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 09/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 27,07
+  valor_glosa: 12,40
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 14,67
+- guia_prestador: 7235936374
+  guia_operadora: 5211722336
+  senha: 70731
+  beneficiario: GEN ASAGIRI
+  matricula: STONE007
+  data_atendimento: 09/10/23
+  codigo: 40302012
+  descricao: UREIA
+  valor_declarado: 10,58
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 10,58
+- guia_prestador: 1637045876
+  guia_operadora: 9529243431
+  senha: 42534
+  beneficiario: MARK GRAYSON
+  matricula: VILTRUM001
+  data_atendimento: 12/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 68,09
+  valor_glosa: 17,01
+  codigo_glosa: '1409'
+  motivo_glosa: Quantidade solicitada acima da máxima permitida
+  valor_pago: 51,08
+- guia_prestador: 1637045876
+  guia_operadora: 9529243431
+  senha: 42534
+  beneficiario: MARK GRAYSON
+  matricula: VILTRUM001
+  data_atendimento: 12/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 611,83
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 611,83
+- guia_prestador: 1637045876
+  guia_operadora: 9529243431
+  senha: 42534
+  beneficiario: MARK GRAYSON
+  matricula: VILTRUM001
+  data_atendimento: 12/10/23
+  codigo: 40301011
+  descricao: GLICOSE
+  valor_declarado: 7,50
+  valor_glosa: 6,35
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 1,15
+- guia_prestador: 1637045876
+  guia_operadora: 9529243431
+  senha: 42534
+  beneficiario: MARK GRAYSON
+  matricula: VILTRUM001
+  data_atendimento: 12/10/23
+  codigo: 90030015
+  descricao: DIMENIDRINATO + PIRIDOXINA (DRAMIN B6) INJ
+  valor_declarado: 9,62
+  valor_glosa: 5,30
+  codigo_glosa: '1203'
+  motivo_glosa: Acomodação não autorizada
+  valor_pago: 4,32
+- guia_prestador: 1637045876
+  guia_operadora: 9529243431
+  senha: 42534
+  beneficiario: MARK GRAYSON
+  matricula: VILTRUM001
+  data_atendimento: 12/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 220,58
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 220,58
+- guia_prestador: 1637045876
+  guia_operadora: 9529243431
+  senha: 42534
+  beneficiario: MARK GRAYSON
+  matricula: VILTRUM001
+  data_atendimento: 12/10/23
+  codigo: 40316050
+  descricao: T4 LIVRE
+  valor_declarado: 28,49
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 28,49
+- guia_prestador: 1954720281
+  guia_operadora: 5581137750
+  senha: 35969
+  beneficiario: RUKIA KUCHIKI
+  matricula: SOUL002
+  data_atendimento: 13/10/23
+  codigo: 40201120
+  descricao: ENDOSCOPIA DIGESTIVA ALTA
+  valor_declarado: 376,25
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 376,25
+- guia_prestador: 1954720281
+  guia_operadora: 5581137750
+  senha: 35969
+  beneficiario: RUKIA KUCHIKI
+  matricula: SOUL002
+  data_atendimento: 13/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 34,93
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,93
+- guia_prestador: 1954720281
+  guia_operadora: 5581137750
+  senha: 35969
+  beneficiario: RUKIA KUCHIKI
+  matricula: SOUL002
+  data_atendimento: 13/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 359,33
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 359,33
+- guia_prestador: 1954720281
+  guia_operadora: 5581137750
+  senha: 35969
+  beneficiario: RUKIA KUCHIKI
+  matricula: SOUL002
+  data_atendimento: 13/10/23
+  codigo: 40901107
+  descricao: ULTRASSONOGRAFIA OBSTETRICA
+  valor_declarado: 177,52
+  valor_glosa: 112,07
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 65,45
+- guia_prestador: 1954720281
+  guia_operadora: 5581137750
+  senha: 35969
+  beneficiario: RUKIA KUCHIKI
+  matricula: SOUL002
+  data_atendimento: 13/10/23
+  codigo: 90010120
+  descricao: OMEPRAZOL 40MG PO LIOFILO INJ
+  valor_declarado: 35,23
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 35,23
+- guia_prestador: 2423995953
+  guia_operadora: 5387318705
+  senha: 15596
+  beneficiario: KATSUKI BAKUGO
+  matricula: UA002
+  data_atendimento: 15/10/23
+  codigo: 30906060
+  descricao: RESSONANCIA MAGNETICA DE CRANIO
+  valor_declarado: 837,00
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 837,00
+- guia_prestador: 2423995953
+  guia_operadora: 5387318705
+  senha: 15596
+  beneficiario: KATSUKI BAKUGO
+  matricula: UA002
+  data_atendimento: 15/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 123,83
+  valor_glosa: 84,66
+  codigo_glosa: '5006'
+  motivo_glosa: Beneficiário cancelado
+  valor_pago: 39,17
+- guia_prestador: 2423995953
+  guia_operadora: 5387318705
+  senha: 15596
+  beneficiario: KATSUKI BAKUGO
+  matricula: UA002
+  data_atendimento: 15/10/23
+  codigo: 90000010
+  descricao: DIPIRONA SODICA 1G/2ML INJ
+  valor_declarado: 9,15
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 9,15
+- guia_prestador: 2520174713
+  guia_operadora: 5530618370
+  senha: 34530
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 09/10/23
+  codigo: 40302489
+  descricao: TRIGLICERIDEOS
+  valor_declarado: 19,98
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 19,98
+- guia_prestador: 2520174713
+  guia_operadora: 5530618370
+  senha: 34530
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 09/10/23
+  codigo: 20201046
+  descricao: CARDIOVERSAO ELETRICA DE EMERGENCIA
+  valor_declarado: 476,56
+  valor_glosa: 240,40
+  codigo_glosa: '1426'
+  motivo_glosa: Procedimento/item não coberto pelo rol da ANS
+  valor_pago: 236,16
+- guia_prestador: 2520174713
+  guia_operadora: 5530618370
+  senha: 34530
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 09/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 443,71
+  valor_glosa: 326,82
+  codigo_glosa: '2005'
+  motivo_glosa: Valor apresentado maior que o valor contratado
+  valor_pago: 116,89
+- guia_prestador: 2520174713
+  guia_operadora: 5530618370
+  senha: 34530
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 09/10/23
+  codigo: 41001010
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE CRANIO
+  valor_declarado: 326,32
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 326,32
+- guia_prestador: 2520174713
+  guia_operadora: 5530618370
+  senha: 34530
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 09/10/23
+  codigo: 41001125
+  descricao: TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR
+  valor_declarado: 622,36
+  valor_glosa: 370,50
+  codigo_glosa: '1002'
+  motivo_glosa: A guia não pertence ao sistema
+  valor_pago: 251,86
+- guia_prestador: 3258354191
+  guia_operadora: 8918095858
+  senha: 92674
+  beneficiario: OBI-WAN KENOBI
+  matricula: JEDI005
+  data_atendimento: 01/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 4,94
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 4,94
+- guia_prestador: 3258354191
+  guia_operadora: 8918095858
+  senha: 92674
+  beneficiario: OBI-WAN KENOBI
+  matricula: JEDI005
+  data_atendimento: 01/10/23
+  codigo: 40306143
+  descricao: TGO (ASPARTATO AMINOTRANSFERASE)
+  valor_declarado: 12,70
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 12,70
+- guia_prestador: 3258354191
+  guia_operadora: 8918095858
+  senha: 92674
+  beneficiario: OBI-WAN KENOBI
+  matricula: JEDI005
+  data_atendimento: 01/10/23
+  codigo: 40804023
+  descricao: RX - TORNOZELO
+  valor_declarado: 59,57
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 59,57
+- guia_prestador: 3258354191
+  guia_operadora: 8918095858
+  senha: 92674
+  beneficiario: OBI-WAN KENOBI
+  matricula: JEDI005
+  data_atendimento: 01/10/23
+  codigo: 40304582
+  descricao: TEMPO DE PROTROMBINA (TAP)
+  valor_declarado: 14,85
+  valor_glosa: 13,10
+  codigo_glosa: '1203'
+  motivo_glosa: Acomodação não autorizada
+  valor_pago: 1,75
+- guia_prestador: 3258354191
+  guia_operadora: 8918095858
+  senha: 92674
+  beneficiario: OBI-WAN KENOBI
+  matricula: JEDI005
+  data_atendimento: 01/10/23
+  codigo: 90010050
+  descricao: CEFTRIAXONA 1G INJ
+  valor_declarado: 56,35
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 56,35
+- guia_prestador: 3258354191
+  guia_operadora: 8918095858
+  senha: 92674
+  beneficiario: OBI-WAN KENOBI
+  matricula: JEDI005
+  data_atendimento: 01/10/23
+  codigo: 40805011
+  descricao: RX - TORAX PA E PERFIL
+  valor_declarado: 81,14
+  valor_glosa: 30,61
+  codigo_glosa: '1802'
+  motivo_glosa: Procedimento incompatível com a idade
+  valor_pago: 50,53
+- guia_prestador: 1685583357
+  guia_operadora: 9125032122
+  senha: 42487
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 40804058
+  descricao: RX - JOELHO
+  valor_declarado: 67,27
+  valor_glosa: 17,67
+  codigo_glosa: '1013'
+  motivo_glosa: CNES do contratado inválido
+  valor_pago: 49,60
+- guia_prestador: 1685583357
+  guia_operadora: 9125032122
+  senha: 42487
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 70000420
+  descricao: LUVA CIRURGICA ESTERIL (PAR)
+  valor_declarado: 7,91
+  valor_glosa: 6,24
+  codigo_glosa: '1001'
+  motivo_glosa: Número da carteira inválido
+  valor_pago: 1,67
+- guia_prestador: 1685583357
+  guia_operadora: 9125032122
+  senha: 42487
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 70000010
+  descricao: KIT DE ACESSO VENOSO
+  valor_declarado: 34,71
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,71
+- guia_prestador: 1685583357
+  guia_operadora: 9125032122
+  senha: 42487
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 70000350
+  descricao: SERINGA DESCARTAVEL 5ML C/ AGULHA
+  valor_declarado: 4,81
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 4,81
+- guia_prestador: 1685583357
+  guia_operadora: 9125032122
+  senha: 42487
+  beneficiario: TOSHIRO HITSUGAYA
+  matricula: SOUL008
+  data_atendimento: 08/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 34,81
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 34,81
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 119,16
+  valor_glosa: 106,58
+  codigo_glosa: '1211'
+  motivo_glosa: Assinatura do médico ou prestador ausente
+  valor_pago: 12,58
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 90010050
+  descricao: CEFTRIAXONA 1G INJ
+  valor_declarado: 55,86
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 55,86
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 10101039
+  descricao: CONSULTA EM CONSULTORIO (NO HORARIO NORMAL)
+  valor_declarado: 173,83
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 173,83
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 60000001
+  descricao: TAXA DE SALA DE OBSERVACAO
+  valor_declarado: 71,63
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 71,63
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 23,28
+  valor_glosa: 20,81
+  codigo_glosa: '1404'
+  motivo_glosa: Quantidade faturada acima da quantidade autorizada
+  valor_pago: 2,47
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 131,73
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 131,73
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 40901123
+  descricao: ULTRASSONOGRAFIA ABDOME TOTAL
+  valor_declarado: 150,24
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 150,24
+- guia_prestador: 1756345332
+  guia_operadora: 7832404750
+  senha: 87662
+  beneficiario: YUZURIHA OGAWA
+  matricula: STONE003
+  data_atendimento: 11/10/23
+  codigo: 31009050
+  descricao: DRENAGEM DE ABSCESSO
+  valor_declarado: 204,70
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 204,70
+- guia_prestador: 5297902885
+  guia_operadora: 6499028775
+  senha: 90495
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 07/10/23
+  codigo: 40306135
+  descricao: TGP (ALANINA AMINOTRANSFERASE)
+  valor_declarado: 10,89
+  valor_glosa: 2,54
+  codigo_glosa: '2505'
+  motivo_glosa: Medicamento não autorizado
+  valor_pago: 8,35
+- guia_prestador: 5297902885
+  guia_operadora: 6499028775
+  senha: 90495
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 07/10/23
+  codigo: 30906060
+  descricao: RESSONANCIA MAGNETICA DE CRANIO
+  valor_declarado: 688,63
+  valor_glosa: 88,96
+  codigo_glosa: '2204'
+  motivo_glosa: Material não autorizado
+  valor_pago: 599,67
+- guia_prestador: 5297902885
+  guia_operadora: 6499028775
+  senha: 90495
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 07/10/23
+  codigo: 70000810
+  descricao: CATETER INTRAVENOSO PERIFERICO
+  valor_declarado: 29,09
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 29,09
+- guia_prestador: 5297902885
+  guia_operadora: 6499028775
+  senha: 90495
+  beneficiario: DRACO MALFOY
+  matricula: SLY001
+  data_atendimento: 07/10/23
+  codigo: 90000030
+  descricao: CETOPROFENO 100MG IM
+  valor_declarado: 12,83
+  valor_glosa: 11,91
+  codigo_glosa: '1002'
+  motivo_glosa: A guia não pertence ao sistema
+  valor_pago: 0,92
+- guia_prestador: 8991514523
+  guia_operadora: 7886606705
+  senha: 19506
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 12/10/23
+  codigo: 90020055
+  descricao: ONDANSETRONA 4MG INJ
+  valor_declarado: 34,10
+  valor_glosa: 33,91
+  codigo_glosa: '1203'
+  motivo_glosa: Acomodação não autorizada
+  valor_pago: 0,19
+- guia_prestador: 8991514523
+  guia_operadora: 7886606705
+  senha: 19506
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 12/10/23
+  codigo: 40316025
+  descricao: TSH (HORMONIO TIREOESTIMULANTE)
+  valor_declarado: 41,23
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 41,23
+- guia_prestador: 8991514523
+  guia_operadora: 7886606705
+  senha: 19506
+  beneficiario: TENYA IIDA
+  matricula: UA005
+  data_atendimento: 12/10/23
+  codigo: 20104199
+  descricao: DIARIA DE QUARTO PRIVATIVO
+  valor_declarado: 352,26
+  valor_glosa: 0,00
+  codigo_glosa: '-'
+  motivo_glosa: '-'
+  valor_pago: 352,26
