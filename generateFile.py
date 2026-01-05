@@ -367,7 +367,7 @@ def generate_yml(rows, summary, filename):
     data_structure = {
         "cabecalho_demonstrativo": {
             "prestador": summary['prestador'],
-            "numero_remessa_lote": summary['remessa'],
+            "numero_remessa_lote": int(summary['remessa']),
             "protocolo": summary['protocolo'],
             "data_pagamento": summary['data_pagamento'],
             "resumo_financeiro": {
@@ -389,7 +389,6 @@ def generate_yml(rows, summary, filename):
                 sort_keys=False,
                 indent=2
             )
-        print(f"✅ YAML gerado: {filename}")
     except Exception as e:
         print(f"❌ Erro ao gerar YAML: {e}")
 
