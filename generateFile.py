@@ -310,7 +310,7 @@ tr:hover{{background-color:#f1f1f1}}
                 <th>Guia Oper.</th>
                 <th>Senha</th>
                 <th>Beneficiário</th>
-                <th>Data</th>
+                <th>Data Atend.</th>
                 <th>Cód. Serv.</th>
                 <th>Descrição</th>
                 <th>Vlr. Decl.</th>
