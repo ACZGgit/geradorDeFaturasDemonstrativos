@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 import yaml
+import hashlib
 from datetime import datetime, timedelta
 
 # --- Configurações ---
@@ -113,38 +114,38 @@ glosa_reasons = {
 # Banco de dados de Beneficiários (Expandido)
 beneficiaries_db = [
     # Bleach
-    ("ICHIGO KUROSAKI", "SOUL001"), ("RUKIA KUCHIKI", "SOUL002"), ("ORIHIME INOUE", "SOUL003"), ("URYU ISHIDA", "SOUL004"),
-    ("RENJI ABARAI", "SOUL005"), ("BYAKUYA KUCHIKI", "SOUL006"), ("KENPACHI ZARAKI", "SOUL007"), ("TOSHIRO HITSUGAYA", "SOUL008"),
-    ("RANGIKU MATSUMOTO", "SOUL009"), ("SOSUKE AIZEN", "SOUL010"),
+    ("ICHIGO KUROSAKI", hashlib.md5(b"ICHIGO KUROSAKI").hexdigest()), ("RUKIA KUCHIKI", hashlib.md5(b"RUKIA KUCHIKI").hexdigest()), ("ORIHIME INOUE", hashlib.md5(b"ORIHIME INOUE").hexdigest()), ("URYU ISHIDA", hashlib.md5(b"URYU ISHIDA").hexdigest()),
+    ("RENJI ABARAI", hashlib.md5(b"RENJI ABARAI").hexdigest()), ("BYAKUYA KUCHIKI", hashlib.md5(b"BYAKUYA KUCHIKI").hexdigest()), ("KENPACHI ZARAKI", hashlib.md5(b"KENPACHI ZARAKI").hexdigest()), ("TOSHIRO HITSUGAYA", hashlib.md5(b"TOSHIRO HITSUGAYA").hexdigest()),
+    ("RANGIKU MATSUMOTO", hashlib.md5(b"RANGIKU MATSUMOTO").hexdigest()), ("SOSUKE AIZEN", hashlib.md5(b"SOSUKE AIZEN").hexdigest()),
 
     # Boku no Hero Academia
-    ("IZUKU MIDORIYA", "UA001"), ("KATSUKI BAKUGO", "UA002"), ("OCHACO URARAKA", "UA003"), ("SHOTO TODOROKI", "UA004"),
-    ("TENYA IIDA", "UA005"), ("TSUYU ASUI", "UA006"), ("EIJIRO KIRISHIMA", "UA007"), ("ALL MIGHT", "UA008"),
-    ("SHOTA AIZAWA", "UA009"), ("ENDEAVOR", "UA010"),
+    ("IZUKU MIDORIYA", hashlib.md5(b"IZUKU MIDORIYA").hexdigest()), ("KATSUKI BAKUGO", hashlib.md5(b"KATSUKI BAKUGO").hexdigest()), ("OCHACO URARAKA", hashlib.md5(b"OCHACO URARAKA").hexdigest()), ("SHOTO TODOROKI", hashlib.md5(b"SHOTO TODOROKI").hexdigest()),
+    ("TENYA IIDA", hashlib.md5(b"TENYA IIDA").hexdigest()), ("TSUYU ASUI", hashlib.md5(b"TSUYU ASUI").hexdigest()), ("EIJIRO KIRISHIMA", hashlib.md5(b"EIJIRO KIRISHIMA").hexdigest()), ("ALL MIGHT", hashlib.md5(b"ALL MIGHT").hexdigest()),
+    ("SHOTA AIZAWA", hashlib.md5(b"SHOTA AIZAWA").hexdigest()), ("ENDEAVOR", hashlib.md5(b"ENDEAVOR").hexdigest()),
 
     # Dr. Stone
-    ("SENKU ISHIGAMI", "STONE001"), ("TAIJU OKI", "STONE002"), ("YUZURIHA OGAWA", "STONE003"), ("TSUKASA SHISHIO", "STONE004"),
-    ("CHROME", "STONE005"), ("KOHAKU", "STONE006"), ("GEN ASAGIRI", "STONE007"),
+    ("SENKU ISHIGAMI", hashlib.md5(b"SENKU ISHIGAMI").hexdigest()), ("TAIJU OKI", hashlib.md5(b"TAIJU OKI").hexdigest()), ("YUZURIHA OGAWA", hashlib.md5(b"YUZURIHA OGAWA").hexdigest()), ("TSUKASA SHISHIO", hashlib.md5(b"TSUKASA SHISHIO").hexdigest()),
+    ("CHROME", hashlib.md5(b"CHROME").hexdigest()), ("KOHAKU", hashlib.md5(b"KOHAKU").hexdigest()), ("GEN ASAGIRI", hashlib.md5(b"GEN ASAGIRI").hexdigest()),
 
     # Shingeki no Kyojin
-    ("EREN YEAGER", "TITAN001"), ("MIKASA ACKERMAN", "TITAN002"), ("ARMIN ARLERT", "TITAN003"), ("LEVI ACKERMAN", "TITAN004"),
-    ("ERWIN SMITH", "TITAN005"), ("HISTORIA REISS", "TITAN006"), ("REINER BRAUN", "TITAN007"),
+    ("EREN YEAGER", hashlib.md5(b"EREN YEAGER").hexdigest()), ("MIKASA ACKERMAN", hashlib.md5(b"MIKASA ACKERMAN").hexdigest()), ("ARMIN ARLERT", hashlib.md5(b"ARMIN ARLERT").hexdigest()), ("LEVI ACKERMAN", hashlib.md5(b"LEVI ACKERMAN").hexdigest()),
+    ("ERWIN SMITH", hashlib.md5(b"ERWIN SMITH").hexdigest()), ("HISTORIA REISS", hashlib.md5(b"HISTORIA REISS").hexdigest()), ("REINER BRAUN", hashlib.md5(b"REINER BRAUN").hexdigest()),
 
     # One Punch Man
-    ("SAITAMA", "HERO001"), ("GENOS", "HERO002"), ("TATSUMAKI", "HERO003"), ("BANG", "HERO004"),
-    ("MUMEN RIDER", "HERO005"), ("FUBUKI", "HERO006"), ("KING", "HERO007"),
+    ("SAITAMA", hashlib.md5(b"SAITAMA").hexdigest()), ("GENOS", hashlib.md5(b"GENOS").hexdigest()), ("TATSUMAKI", hashlib.md5(b"TATSUMAKI").hexdigest()), ("BANG", hashlib.md5(b"BANG").hexdigest()),
+    ("MUMEN RIDER", hashlib.md5(b"MUMEN RIDER").hexdigest()), ("FUBUKI", hashlib.md5(b"FUBUKI").hexdigest()), ("KING", hashlib.md5(b"KING").hexdigest()),
 
     # Invincible
-    ("MARK GRAYSON", "VILTRUM001"), ("NOLAN GRAYSON", "VILTRUM002"), ("SAMANTHA EVE WILKINS", "VILTRUM003"), ("DEBBIE GRAYSON", "VILTRUM004"),
-    ("REX SLOAN", "VILTRUM005"), ("DUPLI-KATE", "VILTRUM006"), ("WILLIAM CLOCKWELL", "VILTRUM007"),
+    ("MARK GRAYSON", hashlib.md5(b"MARK GRAYSON").hexdigest()), ("NOLAN GRAYSON", hashlib.md5(b"NOLAN GRAYSON").hexdigest()), ("SAMANTHA EVE WILKINS", hashlib.md5(b"SAMANTHA EVE WILKINS").hexdigest()), ("DEBBIE GRAYSON", hashlib.md5(b"DEBBIE GRAYSON").hexdigest()),
+    ("REX SLOAN", hashlib.md5(b"REX SLOAN").hexdigest()), ("DUPLI-KATE", hashlib.md5(b"DUPLI-KATE").hexdigest()), ("WILLIAM CLOCKWELL", hashlib.md5(b"WILLIAM CLOCKWELL").hexdigest()),
 
     # Star Wars
-    ("LUKE SKYWALKER", "JEDI001"), ("LEIA ORGANA", "JEDI002"), ("HAN SOLO", "JEDI003"), ("DARTH VADER", "SITH001"),
-    ("YODA", "JEDI004"), ("OBI-WAN KENOBI", "JEDI005"), ("PADME AMIDALA", "REP001"), ("CHEWBACCA", "JEDI006"),
+    ("LUKE SKYWALKER", hashlib.md5(b"LUKE SKYWALKER").hexdigest()), ("LEIA ORGANA", hashlib.md5(b"LEIA ORGANA").hexdigest()), ("HAN SOLO", hashlib.md5(b"HAN SOLO").hexdigest()), ("DARTH VADER", hashlib.md5(b"DARTH VADER").hexdigest()),
+    ("YODA", hashlib.md5(b"YODA").hexdigest()), ("OBI-WAN KENOBI", hashlib.md5(b"OBI-WAN KENOBI").hexdigest()), ("PADME AMIDALA", hashlib.md5(b"PADME AMIDALA").hexdigest()), ("CHEWBACCA", hashlib.md5(b"CHEWBACCA").hexdigest()),
 
     # Harry Potter
-    ("HARRY POTTER", "HOG001"), ("HERMIONE GRANGER", "HOG002"), ("RON WEASLEY", "HOG003"), ("ALBUS DUMBLEDORE", "HOG004"),
-    ("SEVERUS SNAPE", "HOG005"), ("DRACO MALFOY", "SLY001"), ("RUBEUS HAGRID", "HOG006"), ("SIRIUS BLACK", "HOG007")
+    ("HARRY POTTER", hashlib.md5(b"HARRY POTTER").hexdigest()), ("HERMIONE GRANGER", hashlib.md5(b"HERMIONE GRANGER").hexdigest()), ("RON WEASLEY", hashlib.md5(b"RON WEASLEY").hexdigest()), ("ALBUS DUMBLEDORE", hashlib.md5(b"ALBUS DUMBLEDORE").hexdigest()),
+    ("SEVERUS SNAPE", hashlib.md5(b"SEVERUS SNAPE").hexdigest()), ("DRACO MALFOY", hashlib.md5(b"DRACO MALFOY").hexdigest()), ("RUBEUS HAGRID", hashlib.md5(b"RUBEUS HAGRID").hexdigest()), ("SIRIUS BLACK", hashlib.md5(b"SIRIUS BLACK").hexdigest())
 ]
 
 def generate_large_dataset(num_remessas, start_date, target_rows):
